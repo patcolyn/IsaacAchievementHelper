@@ -1,4 +1,4 @@
-import Api from 'api';
+import Api from './api';
 import $ from 'jquery';
 import 'tooltipster';
 import achievements from './data/achievements.json';
