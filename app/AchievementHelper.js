@@ -142,11 +142,11 @@ export default class AchievementHelper {
     }
 
     async loadJsonData() {
-        const achievementsResponse = await fetch('./data/achievements.json');
+        const achievementsResponse = await fetch('./app/data/achievements.json');
         if (!achievementsResponse.ok) throw new Error('Failed to fetch achievements.json');
         this.achievements = await achievementsResponse.json();
 
-        const categoriesResponse = await fetch('./data/categories.json');
+        const categoriesResponse = await fetch('./app/data/categories.json');
         if (!categoriesResponse.ok) throw new Error('Failed to fetch categories.json');
         this.categories = await categoriesResponse.json();
     }
