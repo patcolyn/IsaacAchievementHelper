@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Binding of Isaac: Rebirth - Achievement Helper</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./app/css/styles.css">
+</head>
+<body>
+<h1>The Binding of Isaac: Rebirth Achievement Helper</h1>
+<div id="login">
+    <form id="loginManual" method="get" onsubmit="return false;">
+        <input id="steamIdInput" type="text" placeholder="Paste your SteamId"/>
+    </form>
+    or
+    <form id="steamlogin" action="https://patcolyn.github.io/theriebel-backup/?login" method="post">
+        <input type="image" src="https://steamcommunity-a.akamaihd.net/public/images/signinthroughsteam/sits_small.png">
+    </form>
+</div>
+<div id="achievements">
+    <span id="menu">
+        <ul id="modes">
+			<li class="active" id="repentancePlus">Repentance+</li>
+            <li class="active" id="repentance">Repentance</li>
+            <li class="active" id="afterbirthplus">Afterbirth+</li>
+            <li class="active" id="afterbirth">Afterbirth</li>
+            <li class="active" id="lostMode">Lost</li>
+            <li class="active" id="keeperMode">Keeper</li>
+        </ul>
+    </span>
+    <p id="help">Not working? Try setting your <b>profile AND Game details</b> to "Public" in your <a href="https://i.imgur.com/lhXslD2.png" target="_blank">steam privacy settings.</a></p>
+    <h2><span id="achievementsLeft">0/0 achievements left (0%)</span> <span id="forPlayer"></span> <span
+            id="playtime"></span></h2><BR>
+</div>
+<script type="module" src="./app/AchievementHelper.js"></script>
+</body>
+</html>
