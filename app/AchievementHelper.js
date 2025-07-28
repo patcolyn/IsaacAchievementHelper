@@ -15,21 +15,18 @@ export default class AchievementHelper {
         };
 
         $('#loginManual').submit(e => {
-            ga('send', 'event', 'app', 'steamid', 'submit');
             window.location.hash = $('#steamIdInput').val();
             e.preventDefault();
         });
 
         $('#steamIdInput').on('paste', () => {
             setTimeout(() => {
-                ga('send', 'event', 'app', 'steamid', 'paste');
                 window.location.hash = $('#steamIdInput').val();
             }, 250);
         });
 
         $('#lostMode').on('click', e => {
             e.preventDefault();
-            ga('send', 'event', 'app', 'click', 'lostmode ' + !this.lostMode);
             this.lostMode = !this.lostMode;
             $(e.target).toggleClass('active');
             this.updateAchievements();
@@ -37,7 +34,6 @@ export default class AchievementHelper {
 
         $('#keeperMode').on('click', e => {
             e.preventDefault();
-            ga('send', 'event', 'app', 'click', 'keepermode ' + !this.keeperMode);
             this.keeperMode = !this.keeperMode;
             $(e.target).toggleClass('active');
 
@@ -51,7 +47,6 @@ export default class AchievementHelper {
 
         $('#afterbirth').on('click', e => {
             e.preventDefault();
-            ga('send', 'event', 'app', 'click', 'afterbirth ' + !this.afterbirth);
             this.afterbirth = !this.afterbirth;
             $(e.target).toggleClass('active');
 
@@ -69,7 +64,6 @@ export default class AchievementHelper {
 
         $('#afterbirthplus').on('click', e => {
             e.preventDefault();
-            ga('send', 'event', 'app', 'click', 'afterbirthplus ' + !this.afterbirthplus);
             this.afterbirthplus = !this.afterbirthplus;
             $(e.target).toggleClass('active');
 
@@ -86,7 +80,6 @@ export default class AchievementHelper {
 
         $('#repentance').on('click', e => {
             e.preventDefault();
-            ga('send', 'event', 'app', 'click', 'repentance ' + !this.repentance);
             this.repentance = !this.repentance;
             $(e.target).toggleClass('active');
 
@@ -101,8 +94,6 @@ export default class AchievementHelper {
         });
 
         $(window).on('hashchange', () => {
-            ga('send', 'event', 'app', 'steamid', 'onhashchange');
-
             this.steamId = window.location.hash.substr(1);
 
             if (isNaN(this.steamId)) {
@@ -120,10 +111,8 @@ export default class AchievementHelper {
         });
 
         if (window.location.hash) {
-            ga('send', 'event', 'app', 'steamid', 'hash');
             this.steamId = window.location.hash.match(/#(\w+)/)[1];
         } else if (window.steamId && (!isNaN(window.steamId))) {
-            ga('send', 'event', 'app', 'steamid', 'loginSteam');
             this.steamId = window.steamId;
         }
 
@@ -154,7 +143,6 @@ export default class AchievementHelper {
     updatePlayer() {
         this.api.getPlayerSummaries(this.steamId)
             .then(response => {
-                ga('send', 'event', 'app', this.steamId, response.players[0].personaname);
                 $('#forPlayer').html(`for ${response.players[0].personaname}`);
                 $('title').html(`The Binding of Isaac: Rebirth - Achievement Helper - ${response.players[0].personaname}`);
             }).catch(error => {
