@@ -48,7 +48,7 @@ h2 {
 }
 
 #achievements {
-	background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("https://i.imgur.com/CL2yHJG.jpg") top;
+	background: linear-gradient(rgba(0,0,0,.7),rgba(32, 32, 32, .7)) top;
 	background-size: cover;
 	border: 1px solid #333;
 	border-radius: 3px;
