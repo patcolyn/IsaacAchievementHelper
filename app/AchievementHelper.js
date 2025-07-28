@@ -1,4 +1,4 @@
-import Api from './api';
+import Api from './api.js';
 import achievements from './data/achievements.json';
 import categories from './data/categories.json';
 
