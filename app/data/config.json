@@ -1,6 +1,7 @@
 {
   "Api": {
     "steamAPIKey": "AE31C7E8E288C4353D58F6E9BFD9A36C",
-    "steamAppId": "250900"
+    "steamAppId": "250900",
+    "proxy": "https://patcolyn.infinityfree.me/proxy.php"
   }
 }

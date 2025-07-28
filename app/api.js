@@ -2,7 +2,7 @@ export default class Api {
     constructor(options) {
         this.steamAPIKey = options.steamAPIKey;
         this.steamAppId = options.steamAppId;
-        //this.proxy = options.proxy;
+        this.proxy = options.proxy;
         this.URLs = {
             GetPlayerSummaries: 'https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/',
             GetOwnedGames: 'https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/',
@@ -19,21 +19,6 @@ export default class Api {
                 .join("&")
     }
 
-    _get(url, params, callback) {
-        return new Promise((resolve, reject) => {
-            const fullUrl = url + this._formatParams(params);
-            fetch(fullUrl)
-                .then(response => {
-                    if (!response.ok) throw new Error(response.statusText);
-                    return response.json();
-                })
-                .then(json => resolve(callback(json) || json))
-                .catch(reject);
-        });
-    }
-
-
-    /*
     _get(url, params, callback) {
         return new Promise((resolve, reject) => {
             let req = new XMLHttpRequest();
@@ -54,7 +39,7 @@ export default class Api {
             req.send();
         });
     }
-    */
+
 
     getPlayerSummaries(id) {
         return this._get(this.URLs.GetPlayerSummaries, {
