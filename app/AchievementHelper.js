@@ -1,4 +1,4 @@
-import Api from './api';
+import Api from './api.js';
 
 export default class AchievementHelper {
     constructor(options) {
