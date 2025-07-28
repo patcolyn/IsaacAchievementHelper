@@ -1,6 +1,4 @@
 import Api from './api';
-import achievements from './data/achievements.json';
-import categories from './data/categories.json';
 
 export default class AchievementHelper {
     constructor(options) {
@@ -124,17 +122,33 @@ export default class AchievementHelper {
         if (window.location.hash) {
             ga('send', 'event', 'app', 'steamid', 'hash');
             this.steamId = window.location.hash.match(/#(\w+)/)[1];
-        } else if (window.steamId && ( !isNaN(window.steamId) )) {
+        } else if (window.steamId && (!isNaN(window.steamId))) {
             ga('send', 'event', 'app', 'steamid', 'loginSteam');
             this.steamId = window.steamId;
         }
 
-        if (this.steamId) {
-            this.update();
-        }
-        else {
-            this.updateAchievements();
-        }
+        this.loadJsonData()
+            .then(() => {
+                if (this.steamId) {
+                    this.update();
+                } else {
+                    this.updateAchievements();
+                }
+            })
+            .catch(err => {
+                console.error('Failed to load JSON data:', err);
+                this.updateAchievements();
+            });
+    }
+
+    async loadJsonData() {
+        const achievementsResponse = await fetch('./data/achievements.json');
+        if (!achievementsResponse.ok) throw new Error('Failed to fetch achievements.json');
+        this.achievements = await achievementsResponse.json();
+
+        const categoriesResponse = await fetch('./data/categories.json');
+        if (!categoriesResponse.ok) throw new Error('Failed to fetch categories.json');
+        this.categories = await categoriesResponse.json();
     }
 
     updatePlayer() {
@@ -163,7 +177,7 @@ export default class AchievementHelper {
     }
 
     createCategories() {
-        categories.forEach(category => {
+        this.categories.forEach(category => {
             $(`<div class="category category-${category.id}">`).html(`<h2>${category.name}</h2><div class="achievements"></div>`).appendTo('#achievements');
         });
     }
@@ -184,7 +198,7 @@ export default class AchievementHelper {
     updateAchievements() {
         const $achievements = $('#achievements');
 
-        const filteredAchievements = achievements.filter(achievement => {
+        const filteredAchievements = this.achievements.filter(achievement => {
             return (!this.repentance) ? (parseInt(achievement.name) < 403) : true;
         }).filter(achievement => {
             return (!this.afterbirthplus) ? (parseInt(achievement.name) < 277) : true;
