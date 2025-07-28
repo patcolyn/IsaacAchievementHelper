@@ -4,10 +4,10 @@ export default class Api {
         this.steamAppId = options.steamAppId;
         //this.proxy = options.proxy;
         this.URLs = {
-            GetPlayerSummaries: 'http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/',
-            GetOwnedGames: 'http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/',
-            GetUserStatsForGame: 'http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/',
-            ResolveVanityURL: 'http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/'
+            GetPlayerSummaries: 'https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/',
+            GetOwnedGames: 'https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/',
+            GetUserStatsForGame: 'https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/',
+            ResolveVanityURL: 'https://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/'
         };
     }
 
