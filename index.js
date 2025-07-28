@@ -1,5 +1,5 @@
 import './app/css/styles.css';
-import AchievementHelper from './app/AchievementHelper';
+import AchievementHelper from './app/AchievementHelper.js';
 
 async function init() {
   try {
