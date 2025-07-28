@@ -2,7 +2,7 @@ import AchievementHelper from './app/AchievementHelper.js';
 
 async function init() {
   try {
-    const response = await fetch('./app/config.json');
+    const response = await fetch('./app/data/config.json');
     if (!response.ok) throw new Error('Failed to load config.json');
     const config = await response.json();
 
