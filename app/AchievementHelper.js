@@ -196,9 +196,12 @@ export default class AchievementHelper {
     }
 
     updateAchievements() {
+        console.log("updateAchievements called");
+
         const $achievements = $('#achievements');
 
         const filteredAchievements = this.achievements.filter(achievement => {
+            console.log("Filtered achievements:", filteredAchievements.length);
             return (!this.repentance) ? (parseInt(achievement.name) < 403) : true;
         }).filter(achievement => {
             return (!this.afterbirthplus) ? (parseInt(achievement.name) < 277) : true;
@@ -222,10 +225,14 @@ export default class AchievementHelper {
         else {
             openAchievements = filteredAchievements;
         }
+        console.log("Open achievements:", openAchievements.length);
+
 
         $achievements.find('div').remove();
         this.createCategories();
         this.drawAchievements(openAchievements);
+        console.log("Drawing achievements:", achievements.length);
+
 
         $('#achievementsLeft').html(
             `${this.userAchievements.length}/${achievementCount} (${Math.round(this.userAchievements.length / achievementCount * 100)}%) - ${openAchievements.length} (${Math.round(openAchievements.length / achievementCount * 100)}%) achievements left `
