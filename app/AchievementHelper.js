@@ -8,6 +8,7 @@ export default class AchievementHelper {
         this.afterbirth = true;
         this.afterbirthplus = true;
         this.repentance = true;
+        this.repentanceplus = true;
         this.userAchievements = [];
 
         $.expr[':'].nocontent = obj => {
@@ -56,6 +57,7 @@ export default class AchievementHelper {
                 $('#repentance').removeClass('active');
                 this.afterbirthplus = false;
                 this.repentance = false;
+                this.repentanceplus = false;
                 this.keeperMode = false;
             }
 
@@ -73,6 +75,7 @@ export default class AchievementHelper {
             } else {
                 $('#repentance').removeClass('active');
                 this.repentance = false;
+                this.repentanceplus = false;
             }
 
             this.updateAchievements();
@@ -81,6 +84,7 @@ export default class AchievementHelper {
         $('#repentance').on('click', e => {
             e.preventDefault();
             this.repentance = !this.repentance;
+            this.repentanceplus = !this.repentanceplus;
             $(e.target).toggleClass('active');
 
             if ($('#repentance').hasClass('active')) {
@@ -88,6 +92,24 @@ export default class AchievementHelper {
                 $('#afterbirthplus').addClass('active');
                 this.afterbirth = true;
                 this.afterbirthplus = true;
+                this.repentanceplus = true;
+            }
+
+            this.updateAchievements();
+        });
+
+        $('#repentanceplus').on('click', e => {
+            e.preventDefault();
+            this.repentance = !this.repentance;
+            this.repentanceplus = !this.repentanceplus;
+            $(e.target).toggleClass('active');
+
+            if ($('#repentanceplus').hasClass('active')) {
+                $('#afterbirth').addClass('active');
+                $('#afterbirthplus').addClass('active');
+                this.afterbirth = true;
+                this.afterbirthplus = true;
+                this.repentanceplus = true;
             }
 
             this.updateAchievements();
@@ -187,6 +209,8 @@ export default class AchievementHelper {
         const $achievements = $('#achievements');
 
         const filteredAchievements = this.achievements.filter(achievement => {
+            return (!this.repentanceplus) ? (parseInt(achievement.name) < 637) : true;
+        }).filter(achievement => {
             return (!this.repentance) ? (parseInt(achievement.name) < 403) : true;
         }).filter(achievement => {
             return (!this.afterbirthplus) ? (parseInt(achievement.name) < 277) : true;
