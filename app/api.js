@@ -3,8 +3,8 @@ export default class Api {
         this.steamAppId = options.steamAppId;
         this.proxy = options.proxy;
         this.URLs = {
-            GetPlayerAchievements: 'http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/',
-            GetPlayerSummaries: 'http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/',
+            GetPlayerAchievements: 'https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/',
+            GetPlayerSummaries: 'https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/',
             ResolveVanityURL: 'https://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/'
         };
     }
