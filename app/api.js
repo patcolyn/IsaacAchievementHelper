@@ -1,6 +1,5 @@
 export default class Api {
     constructor(options) {
-        this.steamAPIKey = options.steamAPIKey;
         this.steamAppId = options.steamAppId;
         this.proxy = options.proxy;
         this.URLs = {
@@ -11,13 +10,14 @@ export default class Api {
         };
     }
 
+
     _formatParams(params) {
-        params.key = this.steamAPIKey;
         return "?" + Object
-                .keys(params)
-                .map(key => key + "=" + params[key])
-                .join("&")
+            .keys(params)
+            .map(key => key + "=" + encodeURIComponent(params[key]))
+            .join("&");
     }
+
 
     _get(url, params, callback) {
         return new Promise((resolve, reject) => {
