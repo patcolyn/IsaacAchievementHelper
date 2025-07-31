@@ -215,7 +215,8 @@ export default class AchievementHelper {
             })
             .catch(error => {
                 $('#help').show();
-                throw new Error(error);
+                console.error('Update failed:', error);
+                throw error;
             });
     }
 }
