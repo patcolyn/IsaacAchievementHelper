@@ -176,33 +176,34 @@ export default class AchievementHelper {
         });
     }
 
-    updateAchievements() {
-        const filter = (condition, max) =>
-            condition ? achievement => true : achievement => parseInt(achievement.name) < max;
+updateAchievements() {
+    const filtered = this.achievements.filter(achievement => {
+        const id = parseInt(achievement.name);
+        if (!this.repentanceplus && id >= 637) return false;
+        if (!this.repentance && (id >= 403 && id < 637)) return false;
+        if (!this.afterbirthplus && (id >= 277 && id < 403)) return false;
+        if (!this.afterbirth && (id >= 179 && id < 277)) return false;
+        if (!this.lostMode && achievement.lost) return false;
+        if (!this.keeperMode && achievement.keeper) return false;
+        return true;
+    });
 
-        const filtered = this.achievements
-            .filter(filter(this.repentanceplus, 637))
-            .filter(filter(this.repentance, 403))
-            .filter(filter(this.afterbirthplus, 277))
-            .filter(filter(this.afterbirth, 179))
-            .filter(a => this.lostMode || !a.lost)
-            .filter(a => this.keeperMode || !a.keeper);
+    const total = filtered.length;
+    const open = this.steamId
+        ? filtered.filter(a => !this.userAchievements.some(u => u.name === a.name))
+        : filtered;
 
-        const total = filtered.length;
-        const open = this.steamId
-            ? filtered.filter(a => !this.userAchievements.some(u => u.name === a.name))
-            : filtered;
+    $('#achievements').find('div').remove();
+    this.createCategories();
+    this.drawAchievements(open);
 
-        $('#achievements').find('div').remove();
-        this.createCategories();
-        this.drawAchievements(open);
+    $('#achievementsLeft').html(
+        `${this.userAchievements.length}/${total} (${Math.round(this.userAchievements.length / total * 100)}%) - ${open.length} (${Math.round(open.length / total * 100)}%) achievements left`
+    );
 
-        $('#achievementsLeft').html(
-            `${this.userAchievements.length}/${total} (${Math.round(this.userAchievements.length / total * 100)}%) - ${open.length} (${Math.round(open.length / total * 100)}%) achievements left`
-        );
+    $('#achievements .achievements:nocontent').parent().addClass('disabled');
+}
 
-        $('#achievements .achievements:nocontent').parent().addClass('disabled');
-    }
 
     update() {
         this.api.getUserAchievements(this.steamId)
