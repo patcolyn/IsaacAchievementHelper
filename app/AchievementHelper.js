@@ -182,35 +182,35 @@ export default class AchievementHelper {
         });
     }
 
-updateAchievements() {
-    const filtered = this.achievements.filter(achievement => {
-        const id = parseInt(achievement.name);
-        if (!this.repentanceplus && id >= 637) return false;
-        if (!this.repentance && (id >= 403 && id < 637)) return false;
-        if (!this.afterbirthplus && (id >= 277 && id < 403)) return false;
-        if (!this.afterbirth && (id >= 179 && id < 277)) return false;
-        if (!this.lostMode && achievement.lost) return false;
-        if (!this.keeperMode && achievement.keeper) return false;
-        return true;
-    });
+    updateAchievements() {
+        const filtered = this.achievements.filter(achievement => {
+            const id = parseInt(achievement.name);
+            if (!this.repentanceplus && id >= 637) return false;
+            if (!this.repentance && (id >= 403 && id < 637)) return false;
+            if (!this.afterbirthplus && (id >= 277 && id < 403)) return false;
+            if (!this.afterbirth && (id >= 179 && id < 277)) return false;
+            if (!this.lostMode && achievement.lost) return false;
+            if (!this.keeperMode && achievement.keeper) return false;
+            return true;
+        });
 
-    const total = filtered.length;
-    const open = this.steamId
-    ? filtered.filter(a => !this.userAchievements.some(u => u.apiname === a.id && u.achieved))
-    : filtered;
+        const total = filtered.length;
+        const open = this.steamId
+        ? filtered.filter(a => !this.userAchievements.some(u => u.apiname === a.id && u.achieved))
+        : filtered;
 
-    $('#achievements').find('div').remove();
-    this.createCategories();
-    this.drawAchievements(open);
+        $('#achievements').find('div').remove();
+        this.createCategories();
+        this.drawAchievements(open);
 
-    const unlocked = this.userAchievements.filter(u => u.achieved && filtered.some(a => a.id === u.apiname));
+        const unlocked = this.userAchievements.filter(u => u.achieved && filtered.some(a => a.id === u.apiname));
 
-    $('#achievementsLeft').html(
-    `${unlocked.length}/${total} (${Math.round(unlocked.length / total * 100)}%) - ${open.length} (${Math.round(open.length / total * 100)}%) achievements left`
-    );
+        $('#achievementsLeft').html(
+        `${unlocked.length}/${total} (${Math.round(unlocked.length / total * 100)}%) - ${open.length} (${Math.round(open.length / total * 100)}%) achievements left`
+        );
 
-    $('#achievements .achievements:nocontent').parent().addClass('disabled');
-}
+        $('#achievements .achievements:nocontent').parent().addClass('disabled');
+    }
 
 
     update() {
