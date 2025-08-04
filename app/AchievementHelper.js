@@ -193,19 +193,14 @@ updateAchievements() {
     ? filtered.filter(a => !this.userAchievements.some(u => u.apiname === a.id && u.achieved))
     : filtered;
 
-
-    console.log("Filtered local achievements:", filtered.map(a => a.id));
-    console.log("Sample achievement from filtered:", filtered[0]);
-
-
-
-
     $('#achievements').find('div').remove();
     this.createCategories();
     this.drawAchievements(open);
 
+    const unlocked = this.userAchievements.filter(u => u.achieved && filtered.some(a => a.id === u.apiname));
+
     $('#achievementsLeft').html(
-        `${this.userAchievements.length}/${total} (${Math.round(this.userAchievements.length / total * 100)}%) - ${open.length} (${Math.round(open.length / total * 100)}%) achievements left`
+    `${unlocked.length}/${total} (${Math.round(unlocked.length / total * 100)}%) - ${open.length} (${Math.round(open.length / total * 100)}%) achievements left`
     );
 
     $('#achievements .achievements:nocontent').parent().addClass('disabled');
