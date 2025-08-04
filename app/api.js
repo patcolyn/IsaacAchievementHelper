@@ -1,63 +1,49 @@
 export default class Api {
     constructor(options) {
-        this.steamAPIKey = options.steamAPIKey;
         this.steamAppId = options.steamAppId;
         this.proxy = options.proxy;
         this.URLs = {
+            GetPlayerAchievements: 'https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/',
             GetPlayerSummaries: 'https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/',
-            GetOwnedGames: 'https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/',
-            GetUserStatsForGame: 'https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/',
             ResolveVanityURL: 'https://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/'
         };
     }
 
     _formatParams(params) {
-        params.key = this.steamAPIKey;
-        return "?" + Object
-                .keys(params)
-                .map(key => key + "=" + params[key])
-                .join("&")
+        return "?" + Object.entries(params)
+            .map(([key, val]) => `${key}=${encodeURIComponent(val)}`)
+            .join("&");
     }
 
     _get(url, params, callback) {
         return new Promise((resolve, reject) => {
-            let req = new XMLHttpRequest();
             params.csurl = url;
+            const req = new XMLHttpRequest();
             req.open("GET", this.proxy + this._formatParams(params));
             req.onload = () => {
                 if (req.status === 200) {
-                    resolve(callback(JSON.parse(req.response)) || JSON.parse(req.response));
+                    const json = JSON.parse(req.response);
+                    resolve(callback(json) || json);
                 } else {
                     reject(new Error(req.statusText));
                 }
             };
-
-            req.onerror = () => {
-                reject(new Error("Network error"));
-            };
-
+            req.onerror = () => reject(new Error("Network error"));
             req.send();
         });
     }
 
-
-    getPlayerSummaries(id) {
-        return this._get(this.URLs.GetPlayerSummaries, {
-            steamids: id
-        }, data => data.response);
+    getPlayerName(steamId) {
+        return this._get(this.URLs.GetPlayerSummaries, { steamids: steamId }, data =>
+            data.response.players[0]?.personaname || null
+        );
     }
 
-    getOwnedGames(id) {
-        return this._get(this.URLs.GetOwnedGames, {
-            steamid: id
-        }, data => data.response);
-    }
-
-    getUserStatsForGame(id) {
-        return this._get(this.URLs.GetUserStatsForGame, {
+    getUserAchievements(steamId) {
+        return this._get(this.URLs.GetPlayerAchievements, {
             appid: this.steamAppId,
-            steamid: id
-        }, data => data.playerstats);
+            steamid: steamId
+        }, data => data.playerstats.achievements || []);
     }
 
     resolveVanityURL(id) {
@@ -65,5 +51,14 @@ export default class Api {
             appid: this.steamAppId,
             vanityurl: id
         }, data => data.response);
+    }
+
+    resolveSteamIdIfVanity(steamId) {
+        return isNaN(steamId)
+            ? this.resolveVanityURL(steamId).then(res => {
+                if (res.success !== 42) return res.steamid;
+                throw new Error("Vanity URL resolution failed");
+            })
+            : Promise.resolve(steamId);
     }
 }

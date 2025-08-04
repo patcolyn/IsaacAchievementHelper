@@ -3,6 +3,7 @@ import Api from './api.js';
 export default class AchievementHelper {
     constructor(options) {
         this.api = new Api(options.Api);
+
         this.lostMode = true;
         this.keeperMode = true;
         this.afterbirth = true;
@@ -11,64 +12,55 @@ export default class AchievementHelper {
         this.repentanceplus = true;
         this.userAchievements = [];
 
-        $.expr[':'].nocontent = obj => {
-            return !($.trim($(obj).text()).length) && !($(obj).children().length)
-        };
+        $.expr[':'].nocontent = obj =>
+            !($.trim($(obj).text()).length) && !$(obj).children().length;
 
+        this._bindUI();
+        this._initSteamId();
+        this._loadDataAndUpdate();
+    }
+
+    _bindUI() {
         $('#loginManual').submit(e => {
             window.location.hash = $('#steamIdInput').val();
             e.preventDefault();
         });
 
-        $('#steamIdInput').on('paste', () => {
+        $('#steamIdInput').on('paste', () =>
             setTimeout(() => {
                 window.location.hash = $('#steamIdInput').val();
-            }, 250);
-        });
+            }, 250)
+        );
 
-        $('#lostMode').on('click', e => {
-            e.preventDefault();
-            this.lostMode = !this.lostMode;
-            $(e.target).toggleClass('active');
-            this.updateAchievements();
-        });
+        const toggle = (flag, selector, post = () => {}) => {
+            $(selector).on('click', e => {
+                e.preventDefault();
+                this[flag] = !this[flag];
+                $(e.target).toggleClass('active');
+                post(e);
+                this.updateAchievements();
+            });
+        };
 
-        $('#keeperMode').on('click', e => {
-            e.preventDefault();
-            this.keeperMode = !this.keeperMode;
-            $(e.target).toggleClass('active');
-
+        toggle('lostMode', '#lostMode');
+        toggle('keeperMode', '#keeperMode', e => {
             if ($('#keeperMode').hasClass('active')) {
                 this.afterbirth = true;
                 $('#afterbirth').addClass('active');
             }
-
-            this.updateAchievements();
         });
 
-        $('#afterbirth').on('click', e => {
-            e.preventDefault();
-            this.afterbirth = !this.afterbirth;
-            $(e.target).toggleClass('active');
-
+        toggle('afterbirth', '#afterbirth', () => {
             if (!$('#afterbirth').hasClass('active')) {
-                $('#keeperMode').removeClass('active');
-                $('#afterbirthplus').removeClass('active');
-                $('#repentance').removeClass('active');
+                $('#keeperMode, #afterbirthplus, #repentance').removeClass('active');
+                this.keeperMode = false;
                 this.afterbirthplus = false;
                 this.repentance = false;
                 this.repentanceplus = false;
-                this.keeperMode = false;
             }
-
-            this.updateAchievements();
         });
 
-        $('#afterbirthplus').on('click', e => {
-            e.preventDefault();
-            this.afterbirthplus = !this.afterbirthplus;
-            $(e.target).toggleClass('active');
-
+        toggle('afterbirthplus', '#afterbirthplus', () => {
             if ($('#afterbirthplus').hasClass('active')) {
                 $('#afterbirth').addClass('active');
                 this.afterbirth = true;
@@ -77,74 +69,53 @@ export default class AchievementHelper {
                 this.repentance = false;
                 this.repentanceplus = false;
             }
-
-            this.updateAchievements();
         });
 
-        $('#repentance').on('click', e => {
-            e.preventDefault();
-            this.repentance = !this.repentance;
-            this.repentanceplus = !this.repentanceplus;
-            $(e.target).toggleClass('active');
-
+        toggle('repentance', '#repentance', () => {
             if ($('#repentance').hasClass('active')) {
-                $('#afterbirth').addClass('active');
-                $('#afterbirthplus').addClass('active');
+                $('#afterbirth, #afterbirthplus').addClass('active');
                 this.afterbirth = true;
                 this.afterbirthplus = true;
                 this.repentanceplus = true;
             }
-
-            this.updateAchievements();
         });
 
-        $('#repentanceplus').on('click', e => {
-            e.preventDefault();
-            this.repentance = !this.repentance;
-            this.repentanceplus = !this.repentanceplus;
-            $(e.target).toggleClass('active');
-
+        toggle('repentanceplus', '#repentanceplus', () => {
             if ($('#repentanceplus').hasClass('active')) {
-                $('#afterbirth').addClass('active');
-                $('#afterbirthplus').addClass('active');
+                $('#afterbirth, #afterbirthplus').addClass('active');
                 this.afterbirth = true;
                 this.afterbirthplus = true;
                 this.repentanceplus = true;
             }
-
-            this.updateAchievements();
         });
 
         $(window).on('hashchange', () => {
-            this.steamId = window.location.hash.substr(1);
-
-            if (isNaN(this.steamId)) {
-                this.api.resolveVanityURL(this.steamId)
-                    .then(response => {
-                        if (response.success !== 42) {
-                            window.location.hash = response.steamid;
-                        }
-                    }).catch(error => {
-                    throw new Error(error);
-                });
-            }
-
-            this.update();
+            const hash = window.location.hash.substring(1);
+            this.api.resolveSteamIdIfVanity(hash)
+                .then(id => {
+                    this.steamId = id;
+                    if (window.location.hash.substring(1) !== id) {
+                        window.location.hash = id;
+                    }
+                    this.update();
+                })
+                .catch(error => { throw new Error(error); });
         });
+    }
 
+    _initSteamId() {
         if (window.location.hash) {
             this.steamId = window.location.hash.match(/#(\w+)/)[1];
-        } else if (window.steamId && (!isNaN(window.steamId))) {
+        } else if (window.steamId && !isNaN(window.steamId)) {
             this.steamId = window.steamId;
         }
+    }
 
+    _loadDataAndUpdate() {
         this.loadJsonData()
             .then(() => {
-                if (this.steamId) {
-                    this.update();
-                } else {
-                    this.updateAchievements();
-                }
+                if (this.steamId) this.update();
+                else this.updateAchievements();
             })
             .catch(err => {
                 console.error('Failed to load JSON data:', err);
@@ -153,113 +124,100 @@ export default class AchievementHelper {
     }
 
     async loadJsonData() {
-        const achievementsResponse = await fetch('./app/data/achievements.json');
-        if (!achievementsResponse.ok) throw new Error('Failed to fetch achievements.json');
-        this.achievements = await achievementsResponse.json();
+        const fetchJson = async path => {
+            const res = await fetch(path);
+            if (!res.ok) throw new Error(`Failed to fetch ${path}`);
+            return res.json();
+        };
 
-        const categoriesResponse = await fetch('./app/data/categories.json');
-        if (!categoriesResponse.ok) throw new Error('Failed to fetch categories.json');
-        this.categories = await categoriesResponse.json();
+        this.achievements = await fetchJson('./app/data/achievements.json');
+        this.categories = await fetchJson('./app/data/categories.json');
     }
 
     updatePlayer() {
-        this.api.getPlayerSummaries(this.steamId)
-            .then(response => {
-                $('#forPlayer').html(`for ${response.players[0].personaname}`);
-                $('title').html(`The Binding of Isaac: Rebirth - Achievement Helper - ${response.players[0].personaname}`);
-            }).catch(error => {
-            throw new Error(error);
-        });
-    }
-
-    updatePlaytime() {
-        this.api.getOwnedGames(this.steamId)
-            .then(response => {
-                response.games.forEach(game => {
-
-                    if (game.appid === this.api.steamAppId) {
-                        $('#playtime').html(`playing ${Math.round(game.playtime_forever / 60)}h`);
-                    }
-                })
-            }).catch(error => {
-            throw new Error(error);
-        });
+        this.api.getPlayerName(this.steamId)
+            .then(name => {
+                if (!name) throw new Error("Player name not found");
+                $('#forPlayer').html(`for ${name}`);
+                $('title').html(`The Binding of Isaac: Rebirth - Achievement Helper - ${name}`);
+            })
+            .catch(error => { throw new Error(error); });
     }
 
     createCategories() {
         this.categories.forEach(category => {
-            $(`<div class="category category-${category.id}">`).html(`<h2>${category.name}</h2><div class="achievements"></div>`).appendTo('#achievements');
+            $(`
+                <div class="category category-${category.id}">
+                    <h2>${category.name}</h2>
+                    <div class="achievements"></div>
+                </div>
+            `).appendTo('#achievements');
         });
     }
 
     drawAchievements(achievements) {
         achievements.forEach(achievement => {
-            const title = achievement.unlockedBy || achievement.description || '?'
-            $('<a>').attr('href', `http://bindingofisaacrebirth.gamepedia.com/${achievement.displayName.replace(/ /g, '_')}`).attr('target', '_blank').html(
-                $('<img>').addClass("achievement").attr('src', achievement.icon)
-                    .tooltipster({
-                        content: $(`<span class="title">${achievement.displayName}</span><span>Unlocked by:</span><span class="unlockedby">${title}</span>`),
-                        contentAsHTML: true
-                    })
-            ).appendTo($('#achievements').find(`.category-${achievement.category} .achievements`));
+            const title = achievement.unlockedBy || achievement.description || '?';
+            $('<a>')
+                .attr({
+                    href: `http://bindingofisaacrebirth.gamepedia.com/${achievement.displayName.replace(/ /g, '_')}`,
+                    target: '_blank'
+                })
+                .html(
+                    $('<img>')
+                        .addClass("achievement")
+                        .attr('src', achievement.icon)
+                        .tooltipster({
+                            content: $(`<span class="title">${achievement.displayName}</span><span>Unlocked by:</span><span class="unlockedby">${title}</span>`),
+                            contentAsHTML: true
+                        })
+                )
+                .appendTo(`#achievements .category-${achievement.category} .achievements`);
         });
     }
 
-    updateAchievements() {
-        const $achievements = $('#achievements');
+updateAchievements() {
+    const filtered = this.achievements.filter(achievement => {
+        const id = parseInt(achievement.name);
+        if (!this.repentanceplus && id >= 637) return false;
+        if (!this.repentance && (id >= 403 && id < 637)) return false;
+        if (!this.afterbirthplus && (id >= 277 && id < 403)) return false;
+        if (!this.afterbirth && (id >= 179 && id < 277)) return false;
+        if (!this.lostMode && achievement.lost) return false;
+        if (!this.keeperMode && achievement.keeper) return false;
+        return true;
+    });
 
-        const filteredAchievements = this.achievements.filter(achievement => {
-            return (!this.repentanceplus) ? (parseInt(achievement.name) < 637) : true;
-        }).filter(achievement => {
-            return (!this.repentance) ? (parseInt(achievement.name) < 403) : true;
-        }).filter(achievement => {
-            return (!this.afterbirthplus) ? (parseInt(achievement.name) < 277) : true;
-        }).filter(achievement => {
-            return (!this.afterbirth) ? (parseInt(achievement.name) < 179) : true;
-        }).filter(achievement => {
-            return (!this.lostMode) ? (!achievement.lost) : true;
-        }).filter(achievement => {
-            return (!this.keeperMode) ? (!achievement.keeper) : true;
-        });
+    const total = filtered.length;
+    const open = this.steamId
+        ? filtered.filter(a => !this.userAchievements.some(u => u.name === a.name))
+        : filtered;
 
-        const achievementCount = filteredAchievements.length;
-        let openAchievements;
-        if (this.steamId) {
-            openAchievements = filteredAchievements.filter(achievement => {
-                return (!this.userAchievements.filter(userAchievement => {
-                    return userAchievement.name === achievement.name;
-                }).length);
-            });
-        }
-        else {
-            openAchievements = filteredAchievements;
-        }
+    $('#achievements').find('div').remove();
+    this.createCategories();
+    this.drawAchievements(open);
 
+    $('#achievementsLeft').html(
+        `${this.userAchievements.length}/${total} (${Math.round(this.userAchievements.length / total * 100)}%) - ${open.length} (${Math.round(open.length / total * 100)}%) achievements left`
+    );
 
-        $achievements.find('div').remove();
-        this.createCategories();
-        this.drawAchievements(openAchievements);
+    $('#achievements .achievements:nocontent').parent().addClass('disabled');
+}
 
-
-        $('#achievementsLeft').html(
-            `${this.userAchievements.length}/${achievementCount} (${Math.round(this.userAchievements.length / achievementCount * 100)}%) - ${openAchievements.length} (${Math.round(openAchievements.length / achievementCount * 100)}%) achievements left `
-        );
-
-        $achievements.find('.achievements:nocontent').parent().addClass('disabled');
-    }
 
     update() {
-        this.api.getUserStatsForGame(this.steamId)
-            .then(response => {
+        this.api.getUserAchievements(this.steamId)
+            .then(achievements => {
                 $('#achievements').show();
                 $('#help').hide();
-                this.userAchievements = response.achievements || [];
+                this.userAchievements = achievements;
                 this.updatePlayer();
-                this.updatePlaytime();
                 this.updateAchievements();
-            }).catch(error => {
+            })
+            .catch(error => {
                 $('#help').show();
-                throw new Error(error);
+                console.error('Update failed:', error);
+                throw error;
             });
     }
 }
