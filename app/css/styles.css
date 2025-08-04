@@ -157,11 +157,16 @@ ul#modes li.active {
     border-radius: 6px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: none;
+	text-align: center;
 }
 
 #achievements a img:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+#achievements a {
+    display: inline-block;
 }
 
 /* Utility */
