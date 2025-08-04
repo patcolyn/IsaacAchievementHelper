@@ -70,6 +70,34 @@ h2 {
     margin: 4px;
 }
 
+/* Achievement images */
+#achievements a img {
+    width: 64px;
+    height: 64px;
+    margin: 2px;
+    border-radius: 6px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: none;
+	text-align: center;
+	display: inline-block;
+}
+
+#achievements a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+#achievements a {
+    display: inline-block;
+	text-align: center;
+}
+
+#achievements h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #ccc;
+}
 
 /* Login block */
 #login {
@@ -156,37 +184,8 @@ ul#modes li.active {
 	text-decoration: underline;
 }
 
-/* Achievement images */
-#achievements a img {
-    width: 64px;
-    height: 64px;
-    margin: 4px;
-    border-radius: 6px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    box-shadow: none;
-	text-align: center;
-	display: inline-block;
-}
-
-#achievements a img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-}
-
-#achievements a {
-    display: inline-block;
-	margin: 4px;
-	text-align: center;
-}
-
 /* Utility */
 .disabled {
 	display: none !important;
 }
 
-#achievements h2 {
-    text-align: center;
-    font-weight: 600;
-    margin-top: 20px;
-    color: #ccc;
-}
