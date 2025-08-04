@@ -2927,7 +2927,7 @@
     "id": "415",
     "displayName": "Red Key",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/262b913b7c475ea26bff3ab7aeb884aaa006ac4a.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Open Mom's Chest in Home"
   },
   {
@@ -3334,125 +3334,125 @@
     "displayName": "Friend Finder",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/43ed71e4cdc0ec9ebbb36a0f91ce9cc717513b7a.jpg",
     "category": 21,
-    "unlockedBy": "Defeat Mother as Jacob and Esau"
+    "unlockedBy": "Defeat The Beast as Jacob and Esau"
   },
   {
     "id": "474",
     "displayName": "The Broken",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e3c83a3358731827755f1ff9928233824080455a.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Isaac"
   },
   {
     "id": "475",
     "displayName": "The Dauntless",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/dc85f033107796dece986780f903ecb78e10a15c.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene"
   },
   {
     "id": "476",
     "displayName": "The Hoarder",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/14c25831eb95832b1958f50b72415860f0648d98.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Cain"
   },
   {
     "id": "477",
     "displayName": "The Deceiver",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ffa632fbc18d474002e9967d8e82f9966adfb9ee.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Judas"
   },
   {
     "id": "478",
     "displayName": "The Soiled",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1ca480c89feef9e42d7604ec0291e65644e8626b.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as ???"
   },
   {
     "id": "479",
     "displayName": "The Curdled",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/397f284d6f3a276628a0a83f641f1ec1464bd891.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Eve"
   },
   {
     "id": "480",
     "displayName": "The Savage",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f238ff8febdbf863a3965c8f1177ee5db5372b21.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Samson"
   },
   {
     "id": "481",
     "displayName": "The Benighted",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/68f550f0ce7f5614a6c2f57df5d737ba37da7576.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Azazel"
   },
   {
     "id": "482",
     "displayName": "The Enigma",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/091570c0b06864f957e87e0f52df420552c7916d.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus"
   },
   {
     "id": "483",
     "displayName": "The Capricious",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e5878924e2719b9a9d4612eea1ff585c5d0a477e.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Eden"
   },
   {
     "id": "484",
     "displayName": "The Baleful",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/669d5b1395e765c58ba86162977429183926a2c7.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as The Lost"
   },
   {
     "id": "485",
     "displayName": "The Harlot",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e8cfe1b4b25ec80ebfb69c82d550606421fc6481.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Lilith"
   },
   {
     "id": "486",
     "displayName": "The Miser",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/da0768ac6e799e2a7540c95737f4dcf87c8ecffe.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Keeper"
   },
   {
     "id": "487",
     "displayName": "The Empty",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a3d5268048730ea07663a72bef04839ff47335e8.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon"
   },
   {
     "id": "488",
     "displayName": "The Fettered",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1cf9f75749650e9d3fe4dda3afe2ad5e205b8147.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten"
   },
   {
     "id": "489",
     "displayName": "The Zealot",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/be476d4d9591432ca6485822b7a5543dba468eaf.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Bethany"
   },
   {
     "id": "490",
     "displayName": "The Deserter",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ec967524b45d783c32a806aaa6749dcb34e9b738.jpg",
-    "category": 21,
+    "category": 28,
     "unlockedBy": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau"
   },
   {
