@@ -1,137 +1,165 @@
+/* Tooltip content */
 .tooltipster-content span {
-	display: block
+	display: block;
 }
 
 .tooltipster-content .title {
 	font-weight: 700;
-	margin-bottom: 20px
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #fff;
 }
 
 .tooltipster-content .unlockedby {
-	display: small;
-	color: #ccc
+	font-size: 12px;
+	color: #aaa;
 }
 
+/* Global styles */
 body {
-	background-color: #000;
-	font-family: Arial,sans-serif;
+	background: radial-gradient(ellipse at top, #111 0%, #000 100%);
+	font-family: 'Segoe UI', sans-serif;
 	font-size: 14px;
-	font-weight: 700;
-	text-shadow: 0 0 5px #000
-}
-
-a,body {
-	color: #fff
-}
-
-a {
-	text-decoration: none
-}
-
-h1 {
-	left: 50%;
-	margin: 4px 0 20px -461px;
-	position: absolute;
-	line-height: 30px
-}
-
-h1,h2 {
-	font-size: 16px
-}
-
-h2 {
-	margin: 4px 0 12px
-}
-
-.disabled {
-	display: none
-}
-
-#achievements {
-	background: linear-gradient(rgba(0,0,0,.7),rgba(32, 32, 32, .7)) top;
-	background-size: cover;
-	border: 1px solid #333;
-	border-radius: 3px;
-	left: 50%;
-	margin: 40px 0 20px -481px;
-	padding: 20px;
-	position: absolute;
-	width: 962px;
-	min-height: 140px
-}
-
-#achievements a img {
-	height: 64px;
-	width: 64px;
-	margin-right: 10px
-}
-
-label {
-	display: block;
-	margin-bottom: 10px
-}
-
-#steamIdInput {
-	background: none repeat scroll 0 0 hsla(0,0%,100%,.2);
-	border: 1px solid #666;
+	font-weight: 500;
 	color: #fff;
-	font-weight: 700;
-	width: 150px;
-	border-radius: 3px;
-	padding: 3px;
-	margin-right: 5px
-}
-
-#steamlogin {
-	position: relative;
-	top: 7px;
-	margin-left: 5px
-}
-
-ul {
-	cursor: pointer;
-	display: block;
-	float: right;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
 	margin: 0;
-	text-align: center;
-	width: 150px;
-	list-style: outside none none;
-	height: 20px
+	padding: 0;
 }
 
-li {
-	background: none repeat scroll 0 0 hsla(0,0%,100%,.1);
+/* Header */
+h1 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 30px;
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+/* Subheading */
+h2 {
+	font-size: 14px;
+	margin: 10px 0 20px;
+	color: #ddd;
+}
+
+/* Achievement container */
+#achievements {
+	background: rgba(32, 32, 32, 0.6);
+	backdrop-filter: blur(8px);
+	border: 1px solid #444;
+	border-radius: 8px;
+	padding: 25px;
+	width: 960px;
+	min-height: 160px;
+	margin: 140px auto 40px auto;
+	box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+	position: relative;
+}
+
+/* Login block */
+#login {
+	position: absolute;
+	top: 80px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+/* Input */
+#steamIdInput {
+	background: rgba(255, 255, 255, 0.08);
+	border: 1px solid #555;
+	border-radius: 4px;
+	padding: 5px 10px;
+	color: #fff;
+	font-weight: 600;
+	width: 180px;
+	transition: border 0.2s ease;
+}
+
+#steamIdInput:focus {
+	outline: none;
+	border-color: #88f;
+}
+
+/* Steam login image */
+#steamlogin input[type="image"] {
+	cursor: pointer;
+	transition: transform 0.2s ease;
+}
+
+#steamlogin input[type="image"]:hover {
+	transform: scale(1.05);
+}
+
+/* Mode menu */
+ul#modes {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+ul#modes li {
+	background: rgba(255, 255, 255, 0.07);
 	border: 1px solid #333;
 	color: #fff;
-	font-weight: 700;
-	width: 142px;
-	border-radius: 3px;
-	padding: 3px;
-	margin-bottom: 13px
+	padding: 6px 12px;
+	border-radius: 5px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.3s ease, border 0.3s ease;
 }
 
-.active {
-	background-color: rgba(0,255,0,.3)
+ul#modes li:hover {
+	background: rgba(255, 255, 255, 0.12);
+	border-color: #666;
 }
 
-#login form {
-	display: inline;
-	height: 20px
+ul#modes li.active {
+	background-color: rgba(0, 255, 100, 0.2);
+	border-color: #0f5;
 }
 
-#login {
-	left: 50%;
-	margin: 0 0 20px 158px;
-	position: absolute;
-	line-height: 30px
-}
-
+/* Help text */
 #help {
 	display: none;
-	color: #ff0
+	color: #ff0;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 10px;
 }
 
 #help a {
 	color: #ff0;
-	text-decoration: underline
+	text-decoration: underline;
+}
+
+/* Achievement images */
+#achievements a img {
+	width: 64px;
+	height: 64px;
+	margin: 8px;
+	border-radius: 6px;
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#achievements a img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Utility */
+.disabled {
+	display: none !important;
 }
