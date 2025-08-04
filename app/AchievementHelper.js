@@ -12,7 +12,7 @@ export default class AchievementHelper {
         this.repentanceplus = true;
         this.userAchievements = [];
 
-        tooltipImages = {
+        this.tooltipImages = {
             AddedRep: "https://bindingofisaacrebirth.wiki.gg/images/f/f2/Dlc_r_indicator.png",
         };
 
