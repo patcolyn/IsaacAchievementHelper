@@ -2864,7 +2864,7 @@
     "id": "406",
     "displayName": "The Planetarium",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9f1cb815e585aee8e14cb987cfe48ea7dcc03423.jpg",
-    "category": 20,
+    "category": 8,
     "unlockedBy": "Collect any 3 items with the 'stars' item tag in a single run"
   },
   {
@@ -2878,7 +2878,7 @@
     "id": "408",
     "displayName": "Forgotten Lullaby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d578c3e993cd3562def8812472805a5a952b8479.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Blow up The Siren's skull after defeating her"
   },
   {
@@ -2892,14 +2892,14 @@
     "id": "410",
     "displayName": "Plum Flute",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6710d63198828d01fdf3c7dcb1422e1c7a1147f4.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Allow Baby Plum to escape instead of defeating her"
   },
   {
     "id": "411",
     "displayName": "Rotten Heart",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d12e7bbfe4486b8ba64dac0d1b80d58953a5fc80.jpg",
-    "category": 20,
+    "category": 22,
     "unlockedBy": "Enter Corpse for the first time"
   },
   {
@@ -2927,7 +2927,7 @@
     "id": "415",
     "displayName": "Red Key",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/262b913b7c475ea26bff3ab7aeb884aaa006ac4a.jpg",
-    "category": 20,
+    "category": 21,
     "unlockedBy": "Open Mom's Chest in Home"
   },
   {
@@ -2948,7 +2948,7 @@
     "id": "418",
     "displayName": "Urn of Souls",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/74ca45c03a61b25df73e01e6b6bddada79ebb41e.jpg",
-    "category": 20,
+    "category": 3,
     "unlockedBy": "Defeat Satan as Bethany"
   },
   {
@@ -2962,28 +2962,28 @@
     "id": "420",
     "displayName": "Alabaster Box",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/63d72276ff3030f2fcd5f3359602a62036fb1e4d.jpg",
-    "category": 20,
+    "category": 5,
     "unlockedBy": "Defeat The Lamb as Bethany"
   },
   {
     "id": "421",
     "displayName": "Beth's Faith",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/83b14612b9f8f4b2eddfff8e51f1ab38df5682bb.jpg",
-    "category": 20,
+    "category": 6,
     "unlockedBy": "Complete the Boss Rush as Bethany"
   },
   {
     "id": "422",
     "displayName": "Soul Locket",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2c2c1fc5c6bf12e62cfd918097d71b65c3f91fd9.jpg",
-    "category": 20,
+    "category": 19,
     "unlockedBy": "Defeat Ultra Greed as Bethany"
   },
   {
     "id": "423",
     "displayName": "Divine Intervention",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e4e15a1f579eda2b03a3fdc9d1d051d8760e736a.jpg",
-    "category": 20,
+    "category": 14,
     "unlockedBy": "Defeat Hush as Bethany"
   },
   {
@@ -2997,21 +2997,21 @@
     "id": "425",
     "displayName": "Star of Bethlehem",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/acb552aee4ab9c451b3552f2c3df24362f0032b3.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Bethany"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Bethany"
   },
   {
     "id": "426",
     "displayName": "Hope Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5523efce8dc8decdbae4966db96f36cbcb15a0b1.jpg",
-    "category": 20,
+    "category": 17,
     "unlockedBy": "Earn all Hard mode Completion Marks as Bethany"
   },
   {
     "id": "427",
     "displayName": "Glowing Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/3a8d4d37a6a61f34eef59a5696c34efd931bcca8.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Bethany"
   },
   {
@@ -3032,7 +3032,7 @@
     "id": "430",
     "displayName": "Red Stew",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a03d3a85ee63730010a97b0a3a4e2ab82de9a146.jpg",
-    "category": 20,
+    "category": 3,
     "unlockedBy": "Defeat Satan as Jacob and Esau"
   },
   {
@@ -3046,28 +3046,28 @@
     "id": "432",
     "displayName": "Damocles",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a4bb5260856d74829f98280fb4f0cb730937345c.jpg",
-    "category": 20,
+    "category": 5,
     "unlockedBy": "Defeat The Lamb as Jacob and Esau"
   },
   {
     "id": "433",
     "displayName": "Rock Bottom",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a4f4b91ab0df56c6c480ea54b15f79297fb470c1.jpg",
-    "category": 20,
+    "category": 6,
     "unlockedBy": "Complete Boss Rush as Jacob and Esau"
   },
   {
     "id": "434",
     "displayName": "Inner Child",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/3809d9e3710702aadd3035ff04f147c3c8f50b0a.jpg",
-    "category": 20,
+    "category": 19,
     "unlockedBy": "Defeat Ultra Greed as Jacob and Esau"
   },
   {
     "id": "435",
     "displayName": "Vanishing Twin",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f2974ebbeaf87712010a5facfb23c7e88089972b.jpg",
-    "category": 20,
+    "category": 14,
     "unlockedBy": "Defeat Hush as Jacob and Esau"
   },
   {
@@ -3081,21 +3081,21 @@
     "id": "437",
     "displayName": "Suplex!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c5d71f0f0acef14d446647ec4744e0a0936a1c39.jpg",
-    "category": 20,
+    "category": 18,
     "unlockedBy": "Defeat Delirium as Jacob and Esau"
   },
   {
     "id": "438",
     "displayName": "Solomon's Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/481390e1329f0df0230282b41699ae42f2779a7c.jpg",
-    "category": 20,
+    "category": 17,
     "unlockedBy": "Earn all Hard mode Completion Marks as Jacob and Esau"
   },
   {
     "id": "439",
     "displayName": "Illusion Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0156cfe773a36481de8516d04c6e71b1f123647a.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Jacob and Esau"
   },
   {
@@ -3578,7 +3578,7 @@
     "id": "508",
     "displayName": "Bloody Mary",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/214f5aeba1f05436de0995f69b68eaeced2bf705.jpg",
-    "category": 20,
+    "category": 24,
     "unlockedBy": "Unlock Bethany, Blood Bag, and It Lives!"
   },
   {
@@ -3739,21 +3739,21 @@
     "id": "531",
     "displayName": "The Chariot",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e4693788ef3751ebb5f63e9613ab6d2ab4df46cc.jpg",
-    "category": 20,
+    "category": 7,
     "unlockedBy": "Complete Hot Potato (challenge #42)"
   },
   {
     "id": "532",
     "displayName": "Justice",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9867b7b8c6c83ef77dd9a604915d4ab3f5331380.jpg",
-    "category": 20,
+    "category": 7,
     "unlockedBy": "Complete Cantripped (challenge #43)"
   },
   {
     "id": "533",
     "displayName": "The Hermit",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/84765da4dfd55dbad2b149076923ca2f0eefc659.jpg",
-    "category": 20,
+    "category": 7,
     "unlockedBy": "Complete Red Redemption (challenge #44)"
   },
   {
@@ -3788,7 +3788,7 @@
     "id": "538",
     "displayName": "Temperance",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/02c81b0ba03e2e0f61fcade2d3613d5b7bf49297.jpg",
-    "category": 20,
+    "category": 7,
     "unlockedBy": "Complete DELETE THIS (challenge #45)"
   },
   {
@@ -3837,7 +3837,7 @@
     "id": "545",
     "displayName": "Old Capacitor",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/965a5f3cedbe230c46316a17da858c182a726006.jpg",
-    "category": 20,
+    "category": 8,
     "unlockedBy": "Kill 10 Battery Bums"
   },
   {
@@ -3851,7 +3851,7 @@
     "id": "547",
     "displayName": "Mega Mush",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5b8dc84eb23ec559ee8d1be555c0d02458eb1d31.jpg",
-    "category": 20,
+    "category": 17,
     "unlockedBy": "Earn all Hard mode Completion Marks for all non-Tainted characters"
   },
   {
@@ -4096,252 +4096,252 @@
     "id": "582",
     "displayName": "Member Card",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/37864de2613b88dc1defca28d1e3a6d716b38d79.jpg",
-    "category": 20,
+    "category": 12,
     "unlockedBy": "Spend 40+ coins in a single Shop"
   },
   {
     "id": "583",
     "displayName": "Golden Razor",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1f2c98472942885c1adc4b2bc494d26eac2f4b4d.jpg",
-    "category": 20,
+    "category": 8,
     "unlockedBy": "In a single run, obtain 99 Coins, then spend all of them"
   },
   {
     "id": "584",
     "displayName": "Spindown Dice",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7b746bf53a343e7fcade2774a04e9c000c9dbe4e.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Isaac"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Isaac"
   },
   {
     "id": "585",
     "displayName": "Hypercoagulation",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/bba669fe5ca6fc98b77bcd29427acdc55d072c3d.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Magdalene"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Magdalene"
   },
   {
     "id": "586",
     "displayName": "Bag of Crafting",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ad6a6b49f511fda8901e3042442e9edd9a232a1a.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Cain"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Cain"
   },
   {
     "id": "587",
     "displayName": "Dark Arts",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0ae24803e073263043a8860aff0d5870dd011102.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Judas"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Judas"
   },
   {
     "id": "588",
     "displayName": "IBS",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/914331399edb06f438bd159c1915b3dcae83af2a.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted ???"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted ???"
   },
   {
     "id": "589",
     "displayName": "Sumptorium",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/78269779617e0640dd70f76e1fa1f6f24bbc1786.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Eve"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Eve"
   },
   {
     "id": "590",
     "displayName": "Berserk!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0d1241baf882a6b4a356e2f27b6ec7b8ddce6a00.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Samson"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Samson"
   },
   {
     "id": "591",
     "displayName": "Hemoptysis",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9f939f2c29c765b4b1b89586a59d7d417e11264c.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Azazel"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Azazel"
   },
   {
     "id": "592",
     "displayName": "Flip",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f824e28428af5b33b92db5893ab8024a2a54041e.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Lazarus"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Lazarus"
   },
   {
     "id": "593",
     "displayName": "Corrupted Data",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9263402bbfc67d090f155688b272f5aa18afede4.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Eden"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Eden"
   },
   {
     "id": "594",
     "displayName": "Ghost Bombs",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8010b5fcc7bab5a6d9d277be866377ab7075f93f.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Lost"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Lost"
   },
   {
     "id": "595",
     "displayName": "Gello",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4504087b0079294a11d522e538d14bc498c17ec9.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Lilith"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Lilith"
   },
   {
     "id": "596",
     "displayName": "Keeper's Kin",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1af95a7caa709dc88dbfa4e0991c3fb831e9f6fb.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Keeper"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Keeper"
   },
   {
     "id": "597",
     "displayName": "Abyss",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/004e19b354cccfc104543d62c7743c407fbabdbc.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Apollyon"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Apollyon"
   },
   {
     "id": "598",
     "displayName": "Decap Attack",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9573597074a5cc6c9f902f2e6f795b8e9d926d20.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Forgotten"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Forgotten"
   },
   {
     "id": "599",
     "displayName": "Lemegeton",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/97185903e85118e43bdd3b8e3302c1cefddd3233.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Bethany"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Bethany"
   },
   {
     "id": "600",
     "displayName": "Anima Sola",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/acb4997ed80654c172695a625c921cce916b0a1b.jpg",
-    "category": 20,
-    "unlockedBy": "Defeat Delirium as Tainted Jacob"
+    "category": 18,
+    "unlockedBy": "Defeat Hush and Boss Rush Tainted Jacob"
   },
   {
     "id": "601",
     "displayName": "Mega Chest",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d95132af69f1942721670724afd6d98e0ab29684.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Isaac"
   },
   {
     "id": "602",
     "displayName": "Queen of Hearts",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/fcbc9b85fed31890370a8c32f0622dcd12bfa916.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Magdalene"
   },
   {
     "id": "603",
     "displayName": "Gold Pill",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9b1f06f0d9a32a55ad15c3eb95ef314e93d2e213.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Cain"
   },
   {
     "id": "604",
     "displayName": "Black Sack",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/383ecc54fcdc64b0436e2f3e08921bcecba50c21.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Judas"
   },
   {
     "id": "605",
     "displayName": "Charming Poop",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6376024f89da6414bd74cdcd2d4cfbac0b56199d.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted ???"
   },
   {
     "id": "606",
     "displayName": "Horse Pill",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d9400b21c7b3411f1c209c952371503c5e37c5ef.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Eve"
   },
   {
     "id": "607",
     "displayName": "Crane Game",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f67d46f37802edd3b66f797414150e6e354b732a.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Samson"
   },
   {
     "id": "608",
     "displayName": "Hell Game",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2ebcc4132f852c07d68d18714b8affe503a17546.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Azazel"
   },
   {
     "id": "609",
     "displayName": "Wooden Chest",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b93913bdac707b991bdc97f23fe09eb1c3ac3159.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Lazarus"
   },
   {
     "id": "610",
     "displayName": "Wild Card",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0b2c618d04bb8a2e4ab0f5a197afdf0f22775a4c.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Eden"
   },
   {
     "id": "611",
     "displayName": "Haunted Chest",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/174947ecab06fe1d0e2f77ffb9a29237e6eb68b0.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Lost"
   },
   {
     "id": "612",
     "displayName": "Fool's Gold",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/961c69e1dd2f37c6ec7be8ac5a2ce30a8b3c85fa.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Lilith"
   },
   {
     "id": "613",
     "displayName": "Golden Penny",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7078d220cf995050f9541740cc0f6f078c8aa1d8.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Keeper"
   },
   {
     "id": "614",
     "displayName": "Rotten Beggar",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4312d3bb508cbfb0dc888adf37743db33b2e0177.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Apollyon"
   },
   {
     "id": "615",
     "displayName": "Golden Battery",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/57fdd097f84929ae6f35a919df8f792580e11576.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Forgotten"
   },
   {
     "id": "616",
     "displayName": "Confessional",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/17c1994370e586a0833094b90228888ba39ad8a9.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Bethany"
   },
   {
     "id": "617",
     "displayName": "Golden Trinket",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4c36be3b9dad99083181f47bb1659072c27661bf.jpg",
-    "category": 20,
+    "category": 16,
     "unlockedBy": "Defeat Mega Satan as Tainted Jacob"
   },
   {
@@ -4474,7 +4474,7 @@
     "id": "636",
     "displayName": "Death Certificate",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e266c75ca2725af6989ce7ca2a8d4e83392c8ac6.jpg",
-    "category": 20,
+    "category": 17,
     "unlockedBy": "Earn all Hard mode Completion Marks for all characters, including tainted ones"
   },
   {
