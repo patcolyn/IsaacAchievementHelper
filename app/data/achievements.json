@@ -578,7 +578,7 @@
     "id": "83",
     "displayName": "Dead Boy",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/86c15e3de3028a5ef72dadd274f2cd942847168d.jpg",
-    "category": 10,
+    "category": 25,
     "unlockedBy": "Complete Chapter 6 without taking damage"
   },
   {
@@ -1934,7 +1934,7 @@
     "id": "241",
     "displayName": "Super Greed Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4027fe3f0fd80890947ed748090d5740d1c3cbc9.jpg",
-    "category": 1,
+    "category": 13,
     "unlockedBy": "Defeat Mom's Heart on Hard mode as Keeper",
     "keeper": true
   },
@@ -2248,7 +2248,7 @@
     "id": "318",
     "displayName": "Smelter",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9e9b80ab81a5ca57f9e124f369355c0a2f1037ca.jpg",
-    "category": 1,
+    "category": 13,
     "unlockedBy": "Defeat Mom's Heart or It Lives! on Hard mode as Apollyon"
   },
   {
@@ -2850,7 +2850,7 @@
     "id": "404",
     "displayName": "Bethany",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/71561522690f1a0482f43cb9bbdb50a95ead8216.jpg",
-    "category": 1,
+    "category": 13,
     "unlockedBy": "Defeat Mom's Heart/ It Lives! on hard mode as Lazarus, without dying at all"
   },
   {
@@ -2934,7 +2934,7 @@
     "id": "416",
     "displayName": "Wisp Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c860bc923ab4e78f5a37818f08989de8979a3926.jpg",
-    "category": 1,
+    "category": 13,
     "unlockedBy": "Defeat Mom's Heart or It Lives! on Hard mode as Bethany"
   },
   {
@@ -3018,7 +3018,7 @@
     "id": "428",
     "displayName": "Double Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/42462f436563cdc2d51d89c4a3bd5ebf613ae04a.jpg",
-    "category": 1,
+    "category": 13,
     "unlockedBy": "Defeat Mom's Heart or It Lives! on Hard mode as Jacob and Esau"
   },
   {
@@ -3585,7 +3585,7 @@
     "id": "509",
     "displayName": "Baptism by Fire",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/70639362e094d16e384d8a3fed0a7daedb1f1c20.jpg",
-    "category": 11,
+    "category": 24,
     "unlockedBy": "Defeat Satan as Bethany, defeat Mom's Heart 11 times, and unlock Maggy's Faith"
   },
   {
@@ -3606,7 +3606,7 @@
     "id": "512",
     "displayName": "Pica Run",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7c41b0503f75c6eded91857eca4efa801205a5d9.jpg",
-    "category": 8,
+    "category": 24,
     "unlockedBy": "Defeat Mom's Heart 11 times and unlock Marbles"
   },
   {
