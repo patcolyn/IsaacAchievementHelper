@@ -1971,7 +1971,7 @@
     "id": "279",
     "displayName": "Pokey Mans",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2ddc4a8fe19839b248147eeff7f2dd26cdf74cba.jpg",
-    "category": 1,
+    "category": 24,
     "unlockedBy": "Defeat Mom's Heart 11 times"
   },
   {
@@ -1990,8 +1990,8 @@
   },
   {
     "id": "282",
-    "displayName": "D infinity",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6d15635be833496d9f631be685d8ba1e98ab330a.jpg",
+    "displayName": "D Infinity",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/72e09df69b4d35b32da0da725cd61473f7a418a2.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Isaac"
   },
@@ -2296,7 +2296,7 @@
   {
     "id": "325",
     "displayName": "Dedication",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ba8e1fae2c6109f8977d1e9250c77ed7fe640c4b.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d3f4591dd2d95f076df1d068eaa732bb318a4753.jpg",
     "category": 8,
     "unlockedBy": "Participate in 31 Daily Challenges (they don't have to be consecutive; it will still count if Isaac dies in the first room)"
   },
