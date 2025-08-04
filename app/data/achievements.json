@@ -255,35 +255,35 @@
     "id": "37",
     "displayName": "Basement Boy",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f732080101a581c4b34eebc16d6ff946e4ad235c.jpg",
-    "category": 10,
+    "category": 25,
     "unlockedBy": "Beat Chapter 1 without taking damage"
   },
   {
     "id": "38",
     "displayName": "Spelunker Boy",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/042cfd6dd69abee2934864f940b57d372e7441e1.jpg",
-    "category": 10,
+    "category": 25,
     "unlockedBy": "Beat Chapter 2 without taking damage"
   },
   {
     "id": "39",
     "displayName": "Dark Boy",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4a1caa4d760ab294acbb4310d2b30ef21f987b97.jpg",
-    "category": 10,
+    "category": 25,
     "unlockedBy": "Beat Chapter 3 without taking damage"
   },
   {
     "id": "40",
     "displayName": "Mama's Boy",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/900185e458585929b0e82dc92d17435a75375b67.jpg",
-    "category": 10,
+    "category": 25,
     "unlockedBy": "Beat Chapter 4 without taking damage"
   },
   {
     "id": "41",
     "displayName": "Golden God!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/35e1d5b2f688876861eff77827d76d3f2b5b8dfd.jpg",
-    "category": 11,
+    "category": 25,
     "unlockedBy": "Defeat ??? and The Lamb"
   },
   {
@@ -479,7 +479,7 @@
     "id": "69",
     "displayName": "!Platinum God!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/cbe79358952288e9a6989254eb1e09bdba74f343.jpg",
-    "category": 8,
+    "category": 25,
     "unlockedBy": "Collect all non-DLC items in the game, and unlock all of the secrets and endings (minus The Lost and his 6 unlockable items)"
   },
   {
@@ -585,7 +585,7 @@
     "id": "84",
     "displayName": "The Real Platinum God",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/050ae666a70cab8928f96d16f32d6607d66e4692.jpg",
-    "category": 8,
+    "category": 25,
     "unlockedBy": "Collect every non-DLC item, and unlock every secret and ending.",
     "lost": true
   },
@@ -1088,68 +1088,68 @@
     "id": "157",
     "displayName": "Darkness Falls",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f3efa8f34a8cde33d316a4d711c77f58c77d7be4.jpg",
-    "category": 1,
-    "unlockedBy": "Defeat Mom's Heart 11 times and unlock Eve\n Defeat Mom's Heart 11 times and defeat ??? as Eve"
+    "category": 24,
+    "unlockedBy": "Defeat Mom's Heart 11 times and unlock Eve<br>Defeat Mom's Heart 11 times and defeat ??? as Eve"
   },
   {
     "id": "158",
     "displayName": "The Tank",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/733a6bd79624af43e1c2c7e280d920a264186d39.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Have 7 or more Red Heart Containers at one time"
   },
   {
     "id": "159",
     "displayName": "Solar System",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6b75fcb6afef548fa1c63e4d3efd6fb13602d1aa.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat Mom's Heart 3 times"
   },
   {
     "id": "160",
     "displayName": "Suicide King 2",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/44c9e992bc1d1a4deff61c1e9a583539caec2aaa.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat Mom's Heart 11 times and unlock Lazarus"
   },
   {
     "id": "161",
     "displayName": "Cat Got Your Tongue",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9ddc322cf687dae07ba51fd051f836a955cad20f.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Become Guppy"
   },
   {
     "id": "162",
     "displayName": "Demo Man",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0210c719b68fdf10aa831b8215a18bf96d0a4df8.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat Mom's Heart 9 times"
   },
   {
     "id": "163",
     "displayName": "Cursed!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1f0eed37fa705c7f16df9af35a64252ad4107775.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Have 7 or more Red Heart Containers at one time"
   },
   {
     "id": "164",
     "displayName": "Glass Cannon",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9223599bc565123671b127256b3d29aac2d18f6c.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Beat The Family Man (challenge #19), defeat Lokii, and unlock Judas and It Lives!"
   },
   {
     "id": "165",
     "displayName": "The Family Man",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f598ea34a68e2071e227ac0c2cbeaeffe577bad6.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Pick up both Key Pieces from the Angels in one run"
   },
   {
     "id": "166",
-    "displayName": "Purist",
+    "displayName": "Purist (Challenge #20)",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a600f71a773cfa7997b7a25fd69ae7173f8b78e0.jpg",
     "category": 9,
     "unlockedBy": "Defeat Mom"
@@ -1251,7 +1251,7 @@
     "id": "178",
     "displayName": "Lord of the Flies",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/3eec49150b625cdf4a6766f1a6935eb2061d0ba1.jpg",
-    "category": 8,
+    "category": 25,
     "unlockedBy": "Become Beelzebub"
   },
   {
@@ -1533,7 +1533,7 @@
     "id": "234",
     "displayName": "Blue Womb",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/59e4e9455915897134a0c67436fd3e8fb3ba5f49.jpg",
-    "category": 8,
+    "category": 1,
     "unlockedBy": "Defeat Mom's Heart 10 times"
   },
   {
@@ -1561,70 +1561,70 @@
     "id": "265",
     "displayName": "XXXXXXXXL",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2699055e6489ae9610e497b22c995a107b4bfdca.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat Mom"
   },
   {
     "id": "266",
     "displayName": "SPEED!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a939a08d886ae7a70023872b8c61ef4acc442ee9.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat Mom"
   },
   {
     "id": "267",
     "displayName": "Blue Bomber",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b310ef502632d6bef75a8a253dcceb41e464e187.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times"
   },
   {
     "id": "268",
     "displayName": "PAY TO PLAY",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/590a5349afc93e2667c028b5bd67065a6c9535c8.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat Isaac as Cain and destroy 10 Tinted Rocks"
   },
   {
     "id": "269",
     "displayName": "Have a Heart",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/497cd1a50f5854e43acd6cea4ea904546e46ecbd.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat Mom"
   },
   {
     "id": "270",
     "displayName": "I RULE!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/923cc8381a078df19fc308c6cb31eb863c778981.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat ??? or The Lamb, defeat Satan as Isaac, and unlock The Negative\n Defeat ??? or The Lamb, and defeat Satan as Isaac\n Defeat Mega Satan and unlock The Negative"
   },
   {
     "id": "271",
     "displayName": "BRAINS!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4192c5ac2e4ee896019917819a687fd36380c4e7.jpg",
-    "category": 7,
+    "category": 23,
     "unlockedBy": "Defeat Isaac 5 times"
   },
   {
     "id": "272",
     "displayName": "PRIDE DAY!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b9f18bafa9040efa9af8bdd5e0a6661f78abdafc.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat Mom"
   },
   {
     "id": "273",
     "displayName": "Onan's Streak",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/080d48fe906dfee09b59d41ab30d7b6667fce0c7.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat Mom\n Unlock Judas and It Lives!"
   },
   {
     "id": "274",
     "displayName": "The Guardian",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9fab42d65109bee39315741f1d4bfad79300d005.jpg",
-    "category": 7,
+    "category": 24,
     "unlockedBy": "Defeat Mom"
   },
   {
@@ -1814,7 +1814,7 @@
     "id": "275",
     "displayName": "Generosity",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/801183252930a090c8e1cb1113bad217ce4f9b00.jpg",
-    "category": 15,
+    "category": 25,
     "unlockedBy": "Donate 999 Coins to the Greed Donation Machine"
   },
   {
@@ -1887,7 +1887,7 @@
     "id": "235",
     "displayName": "1001%",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b0ccf94d1447bad38ef1ba2c476cbf9702c140b0.jpg",
-    "category": 8,
+    "category": 25,
     "unlockedBy": "Unlock all Afterbirth secrets and endings, and collect every Afterbirth item / Unlock 275 random achievements and have at least 510 items in the collection page"
   },
   {
@@ -1957,7 +1957,7 @@
     "id": "277",
     "displayName": "Backasswards",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a24b3e30454163bd44c8af696c1d3f715924f0c7.jpg",
-    "category": 4,
+    "category": 24,
     "unlockedBy": "Defeat ??? or The Lamb\n Defeat Mega Satan and unlock The Negative"
   },
   {
@@ -1978,14 +1978,14 @@
     "id": "280",
     "displayName": "Ultra Hard",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e14c6f343a68be381fde4feb6a32eb5d2f6ef083.jpg",
-    "category": 4,
+    "category": 24,
     "unlockedBy": "Defeat ??? or The Lamb. Possession of The Polaroid / The Negative is required, barring getting to Dark Room through a Sacrifice Room.\n Defeat Mega Satan and unlock The Negative"
   },
   {
     "id": "281",
     "displayName": "PONG",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f4aa8fcce92c7458ff42db5f7800ec60ebd7ea2d.jpg",
-    "category": 2,
+    "category": 24,
     "unlockedBy": "Defeat Isaac 5 times"
   },
   {
@@ -2261,7 +2261,7 @@
   {
     "id": "320",
     "displayName": "New Area",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f5656a31f8563b25f595cee513c6831c512a9d26.jpg",
+    "icon": "https://bindingofisaacrebirth.wiki.gg/images/6/6c/Achievement_New_Area_icon.png",
     "category": 14,
     "unlockedBy": "Defeat Hush"
   },
@@ -2395,7 +2395,7 @@
     "id": "339",
     "displayName": "1000000%",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6673cb1141bae8012ef6b13090e796e3a8ed5dc2.jpg",
-    "category": 8,
+    "category": 25,
     "unlockedBy": "Collect every item in the game, unlock all secrets and endings, and complete the Bestiary / Unlock 402 random achievements and have at least 510 items in the collection page"
   },
   {
@@ -4488,21 +4488,21 @@
     "id": "638",
     "displayName": "Play Online",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/da5264ee0d316ad91646889f84287a04a9bf7640.jpg",
-    "category": 23,
+    "category": 25,
     "unlockedBy": "Play an Online game"
   },
   {
     "id": "639",
     "displayName": "Win Online",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/fbceae940d5c2de42f31938c166c4a11d26fbaf6.jpg",
-    "category": 23,
+    "category": 25,
     "unlockedBy": "Win an Online run"
   },
   {
     "id": "640",
     "displayName": "Win Online Daily",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/90f01f8e38174ad4eaf1e74e69450edba4b610a4.jpg",
-    "category": 23,
+    "category": 25,
     "unlockedBy": "Win an Online Daily run"
   }
 ]
