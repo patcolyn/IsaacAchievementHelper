@@ -130,7 +130,7 @@ export default class AchievementHelper {
             return res.json();
         };
 
-        this.achievements = await fetchJson('./app/data/achievements.json');
+        this.achievements = Object.values(await fetchJson('./app/data/achievements.json'));
         this.categories = await fetchJson('./app/data/categories.json');
     }
 
@@ -192,9 +192,14 @@ updateAchievements() {
     const open = this.steamId
     ? filtered.filter(a => !this.userAchievements.some(u => u.apiname === a.name && u.achieved))
     : filtered;
+
+
     
     console.log("Matching achievement IDs from Steam:", this.userAchievements.map(u => u.apiname));
-    console.log("Filtered local achievements:", filtered.map(a => a.name));
+    console.log("Filtered local achievements:", filtered.map(a => a.apiname));
+    console.log("Sample achievement from filtered:", filtered[0]);
+
+
 
 
     $('#achievements').find('div').remove();
