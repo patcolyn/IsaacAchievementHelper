@@ -209,11 +209,6 @@ updateAchievements() {
     `${unlocked.length}/${total} (${Math.round(unlocked.length / total * 100)}%) - ${open.length} (${Math.round(open.length / total * 100)}%) achievements left`
     );
 
-    // Update progress bar
-    const percent = Math.round((unlocked.length / total) * 100);
-    document.getElementById('progressBar').style.width = percent + '%';
-
-
     $('#achievements .achievements:nocontent').parent().addClass('disabled');
 }
 
