@@ -12,6 +12,10 @@ export default class AchievementHelper {
         this.repentanceplus = true;
         this.userAchievements = [];
 
+        tooltipImages = {
+            AddedRep: "https://bindingofisaacrebirth.wiki.gg/images/f/f2/Dlc_r_indicator.png",
+        };
+
         $.expr[':'].nocontent = obj =>
             !($.trim($(obj).text()).length) && !$(obj).children().length;
 
@@ -157,7 +161,17 @@ export default class AchievementHelper {
 
     drawAchievements(achievements) {
         achievements.forEach(achievement => {
-            const title = achievement.unlockedBy || achievement.description || '?';
+            const rawTitle = achievement.unlockedBy || achievement.description || '?';
+
+            const title = rawTitle
+                .replace(/\n/g, '<br>')
+                .replace(/<img:(\w+)>/g, (_, key) => {
+                    const url = this.tooltipImages[key];
+                    return url
+                        ? `<img src="${url}" alt="${key}" style="height:16px; vertical-align:middle; margin:0 2px;">`
+                        : '';
+                });
+
             $('<a>')
                 .attr({
                     href: `http://bindingofisaacrebirth.gamepedia.com/${achievement.displayName.replace(/ /g, '_')}`,
@@ -168,7 +182,7 @@ export default class AchievementHelper {
                         .addClass("achievement")
                         .attr('src', achievement.icon)
                         .tooltipster({
-                            content: $(`<span class="title">${achievement.displayName}</span><span>Unlocked by:</span><span class="unlockedby">${title}</span>`),
+                            content: $(`<span class="title">${achievement.displayName}</span><span class="unlockedby">${title}</span>`),
                             contentAsHTML: true,
                             delay: 75,
                             animation: 'fade',
@@ -177,10 +191,11 @@ export default class AchievementHelper {
                             maxWidth: 260
                         })
                 )
-
                 .appendTo(`#achievements .category-${achievement.category} .achievements`);
         });
     }
+        
+
 
     updateAchievements() {
         const filtered = this.achievements.filter(achievement => {
