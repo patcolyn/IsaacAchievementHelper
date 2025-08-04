@@ -1,8 +1,5 @@
 /* Hide DLC buttons temporarily */
-#repentanceplus,
-#repentance,
-#afterbirthplus,
-#afterbirth {
+#menu {
     display: none !important;
 }
 
