@@ -7,13 +7,6 @@
     "unlockedBy": "Have 7 or more Red Heart Containers at one time"
   },
   {
-    "id": "27",
-    "displayName": "A Halo",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5e385b816c79a1558e63796c9af9ccdb97e6e90e.jpg",
-    "category": 9,
-    "unlockedBy": "Defeat Mom, Mom's Heart, or It Lives! using The Bible or XV - The Devil?"
-  },
-  {
     "id": "2",
     "displayName": "Cain",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/33658122e504ae8670bbb70686468e1276902cc4.jpg",
@@ -187,6 +180,13 @@
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d7d968c35d3bd9cfff55448067ffdb0a611c0727.jpg",
     "category": 8,
     "unlockedBy": "Visit 10 Arcades"
+  },
+  {
+    "id": "27",
+    "displayName": "A Halo",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5e385b816c79a1558e63796c9af9ccdb97e6e90e.jpg",
+    "category": 9,
+    "unlockedBy": "Defeat Mom, Mom's Heart, or It Lives! using The Bible or XV - The Devil?"
   },
   {
     "id": "28",
