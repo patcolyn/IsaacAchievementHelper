@@ -1,3 +1,11 @@
+/* Hide DLC buttons temporarily */
+#repentanceplus,
+#repentance,
+#afterbirthplus,
+#afterbirth {
+    display: none !important;
+}
+
 /* Tooltip content */
 .tooltipster-content span {
 	display: block;
