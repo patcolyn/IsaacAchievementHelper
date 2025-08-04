@@ -2871,7 +2871,7 @@
     "id": "407",
     "displayName": "A Secret Exit",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0d65e10ec45d85fb840a51f6df3db6ca2fce9923.jpg",
-    "category": 20,
+    "category": 14,
     "unlockedBy": "Defeat Hush 3 times"
   },
   {
@@ -2885,7 +2885,7 @@
     "id": "409",
     "displayName": "Fruity Plum",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b6aacf1baead079599df435f42850d327bdfed19.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Baby Plum 10 times"
   },
   {
@@ -2906,21 +2906,21 @@
     "id": "412",
     "displayName": "Dross",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e7654343bc37f54136ce030ee2f33d2bebf3f323.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat all bosses in Downpour"
   },
   {
     "id": "413",
     "displayName": "Ashpit",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c20abf8d731dfa4c0a2de7e1aab5766e7449adbd.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat all bosses in Mines"
   },
   {
     "id": "414",
     "displayName": "Gehenna",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0826c5b55aed422de890d302bebb4e124c195a10.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat all bosses in Mausoleum"
   },
   {
@@ -2934,14 +2934,14 @@
     "id": "416",
     "displayName": "Wisp Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c860bc923ab4e78f5a37818f08989de8979a3926.jpg",
-    "category": 20,
+    "category": 1,
     "unlockedBy": "Defeat Mom's Heart or It Lives! on Hard mode as Bethany"
   },
   {
     "id": "417",
     "displayName": "Book of Virtues",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9948a37b700e9afd90377df97a39f1fd391a7c74.jpg",
-    "category": 20,
+    "category": 2,
     "unlockedBy": "Defeat Isaac as Bethany"
   },
   {
@@ -2955,7 +2955,7 @@
     "id": "419",
     "displayName": "Blessed Penny",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/93d00c663639fdab0df79c1df6bf6061808cd5e6.jpg",
-    "category": 20,
+    "category": 4,
     "unlockedBy": "Defeat ??? as Bethany"
   },
   {
@@ -3018,14 +3018,14 @@
     "id": "428",
     "displayName": "Double Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/42462f436563cdc2d51d89c4a3bd5ebf613ae04a.jpg",
-    "category": 20,
+    "category": 1,
     "unlockedBy": "Defeat Mom's Heart or It Lives! on Hard mode as Jacob and Esau"
   },
   {
     "id": "429",
     "displayName": "The Stairway",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8c580f5da6297a783bfec85688b237db8ba83a7f.jpg",
-    "category": 20,
+    "category": 2,
     "unlockedBy": "Defeat Isaac as Jacob and Esau"
   },
   {
@@ -3039,7 +3039,7 @@
     "id": "431",
     "displayName": "Birthright",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/31a77b3526515333f4fdc381d001faf08f73b240.jpg",
-    "category": 20,
+    "category": 4,
     "unlockedBy": "Defeat ??? as Jacob and Esau"
   },
   {
@@ -3459,7 +3459,7 @@
     "id": "491",
     "displayName": "Glitched Crown",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6c449319e05d96aebde3e8eed7fcfff8046235a7.jpg",
-    "category": 21,
+    "category": 22,
     "unlockedBy": "Defeat Mother as Tainted Isaac"
   },
   {
@@ -3585,105 +3585,105 @@
     "id": "509",
     "displayName": "Baptism by Fire",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/70639362e094d16e384d8a3fed0a7daedb1f1c20.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Satan as Bethany, defeat Mom's Heart 11 times, and unlock Maggy's Faith"
   },
   {
     "id": "510",
     "displayName": "Isaac's Awakening",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/91e90709bfd5fbada93cf1c078f4bdccd3feac97.jpg",
-    "category": 22,
+    "category": 24,
     "unlockedBy": "Defeat Mother"
   },
   {
     "id": "511",
     "displayName": "Seeing Double",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/77105edc5b35b6ec69c74451c57835393cdb1b4e.jpg",
-    "category": 22,
+    "category": 24,
     "unlockedBy": "Defeat Mother"
   },
   {
     "id": "512",
     "displayName": "Pica Run",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7c41b0503f75c6eded91857eca4efa801205a5d9.jpg",
-    "category": 20,
+    "category": 8,
     "unlockedBy": "Defeat Mom's Heart 11 times and unlock Marbles"
   },
   {
     "id": "513",
     "displayName": "Hot Potato",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/332ada775a266720e16a73f6e9ca12c1f84610f7.jpg",
-    "category": 20,
+    "category": 24,
     "unlockedBy": "Unlock Tainted Forgotten"
   },
   {
     "id": "514",
     "displayName": "Cantripped!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e08f3c0ca6d81d1ed8bb27d94079011d31135e29.jpg",
-    "category": 20,
+    "category": 24,
     "unlockedBy": "Unlock Tainted Cain"
   },
   {
     "id": "515",
     "displayName": "Red Redemption",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/53c11ed66a1a14a381043dad14503325b7fac862.jpg",
-    "category": 20,
+    "category": 24,
     "unlockedBy": "Unlock Tainted Jacob"
   },
   {
     "id": "516",
     "displayName": "DELETE THIS",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c13d306dde269ca9a4beeed059857c5b23f95b2e.jpg",
-    "category": 20,
+    "category": 24,
     "unlockedBy": "Unlock Tainted Eden"
   },
   {
     "id": "517",
     "displayName": "Dirty Mind",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e155ee39b00b203661acde8e5e1ab6d41cb6a6db.jpg",
-    "category": 20,
+    "category": 7,
     "unlockedBy": "Complete Scat Man (challenge #36)"
   },
   {
     "id": "518",
     "displayName": "Sigil of Baphomet",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d4d25cb0b83c14d3579cdffc5fb2d17a826b911e.jpg",
-    "category": 20,
+    "category": 7,
     "unlockedBy": "Complete Bloody Mary (challenge #37)"
   },
   {
     "id": "519",
     "displayName": "Purgatory",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f5779e36976bb0b222f6fb372f62e2bbd1535654.jpg",
-    "category": 20,
+    "category": 7,
     "unlockedBy": "Complete Baptism by Fire (challenge #38)"
   },
   {
     "id": "520",
     "displayName": "Spirit Sword",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/82e0b07e0bc5a1ad71681efb439fbbb78f2f8b4d.jpg",
-    "category": 20,
+    "category": 7,
     "unlockedBy": "Complete Isaac's Awakening (challenge #39)"
   },
   {
     "id": "521",
     "displayName": "Broken Glasses",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2a790aa1b95b17baae0654fe96e1ec0197b5a992.jpg",
-    "category": 20,
+    "category": 7,
     "unlockedBy": "Complete Seeing Double (challenge #40)"
   },
   {
     "id": "522",
     "displayName": "Ice Cube",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ac1f27348e90a32195d8198c17be4ae6797c2a17.jpg",
-    "category": 20,
+    "category": 7,
     "unlockedBy": "Complete Pica Run (challenge #41)"
   },
   {
     "id": "523",
     "displayName": "Charged Penny",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4299d32b6b1637bd9518ddc0e02c287f4d89a561.jpg",
-    "category": 20,
+    "category": 8,
     "unlockedBy": "Donate to Battery Bums until they pay out with an item 5 times"
   },
   {
@@ -3844,7 +3844,7 @@
     "id": "546",
     "displayName": "Brimstone Bombs",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0092fd74cf68a83eef3cda2539621525091fee71.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "After breaking Hornfel's minecart, kill him before he can escape"
   },
   {
@@ -3858,7 +3858,7 @@
     "id": "548",
     "displayName": "Mom's Lock",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/52a6c198062e4608e888154ed78d8ee27e582bd9.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Isaac"
   },
   {
@@ -3872,7 +3872,7 @@
     "id": "550",
     "displayName": "Holy Crown",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6fcc4772d6c9001e9cea30f6d5be197fb7390094.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Magdalene"
   },
   {
@@ -3886,7 +3886,7 @@
     "id": "552",
     "displayName": "Gilded Key",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ac37304daa61aa233a945c6701d24fcac688c4af.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Cain"
   },
   {
@@ -3900,7 +3900,7 @@
     "id": "554",
     "displayName": "Your Soul",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e59d5209b5c83cc24c7e1dce7e437130319fcb8c.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Judas"
   },
   {
@@ -3928,7 +3928,7 @@
     "id": "558",
     "displayName": "Strange Key",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/eb3fa6d32a601e77cdf908bd73530a64d59ba2da.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eve"
   },
   {
@@ -3942,7 +3942,7 @@
     "id": "560",
     "displayName": "Temporary Tattoo",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/46f1a1bbd94d21109927f332c73547518eb61258.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Samson"
   },
   {
@@ -3956,7 +3956,7 @@
     "id": "562",
     "displayName": "Wicked Crown",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c0dc31090d05b5bfba8a83ea26192332d739a54c.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Azazel"
   },
   {
@@ -3970,7 +3970,7 @@
     "id": "564",
     "displayName": "Torn Pocket",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1bf3819eeab10e30112c31d148cce613d3135acb.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lazarus"
   },
   {
@@ -3984,7 +3984,7 @@
     "id": "566",
     "displayName": "Nuh Uh!",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0c4b8b924ee3293ad25386b412c287fdf1cc1201.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eden"
   },
   {
@@ -3998,7 +3998,7 @@
     "id": "568",
     "displayName": "Kid's Drawing",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ecab49974a189cc612e110e0d88ab13a8406749f.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lost"
   },
   {
@@ -4012,7 +4012,7 @@
     "id": "570",
     "displayName": "The Twins",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/08bc17c579b1dbffba09052c43aa454f437b4461.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lilith"
   },
   {
@@ -4026,7 +4026,7 @@
     "id": "572",
     "displayName": "Keeper's Bargain",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/acc638bf72395931e4867ca389674bfb39935cc1.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Keeper"
   },
   {
@@ -4040,7 +4040,7 @@
     "id": "574",
     "displayName": "Cricket Leg",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ef36eda756f6844370199ad8e1e6797287e7a95e.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Apollyon"
   },
   {
@@ -4054,7 +4054,7 @@
     "id": "576",
     "displayName": "Polished Bone",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/bffdfea1fcfc778af9d224038945f4faee5d9ae2.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Forgotten"
   },
   {
@@ -4068,7 +4068,7 @@
     "id": "578",
     "displayName": "Expansion Pack",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e82cdd789bfbdc5ed60ce04580461953f19a27ff.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Bethany"
   },
   {
@@ -4082,7 +4082,7 @@
     "id": "580",
     "displayName": "RC Remote",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/19ca362b85e6c5bdacb3c6706b6970eb9d55a245.jpg",
-    "category": 20,
+    "category": 11,
     "unlockedBy": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Jacob"
   },
   {
@@ -4348,119 +4348,119 @@
     "id": "618",
     "displayName": "Soul of Isaac",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/196f6592d033abb12cef197508de871769671686.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Isaac"
   },
   {
     "id": "619",
     "displayName": "Soul of Magdalene",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/643fd65b0491870773a579b3f1f5e42107b9d9d5.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Magdalene"
   },
   {
     "id": "620",
     "displayName": "Soul of Cain",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2962cc439f93835ff16fcbb44c134dad4fb3018f.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Cain"
   },
   {
     "id": "621",
     "displayName": "Soul of Judas",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/258a1e12cac3006ba1df3cbe6b15bfe5dffa0ccd.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Judas"
   },
   {
     "id": "622",
     "displayName": "Soul of ???",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a952dd7ed68c512633f9f38e01a8a07c902164c2.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted ???"
   },
   {
     "id": "623",
     "displayName": "Soul of Eve",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/264b42d8f7b71fadd8c68808e92e99313f2079cb.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Eve"
   },
   {
     "id": "624",
     "displayName": "Soul of Samson",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/31505de40c027cc922f151c7fd0ab7bb156d8ac9.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Samson"
   },
   {
     "id": "625",
     "displayName": "Soul of Azazel",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/188816c3514b25d3d2447e46bd0829067a11316f.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Azazel"
   },
   {
     "id": "626",
     "displayName": "Soul of Lazarus",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7615a178f0339f680eccbe84b27c091df4e08f7e.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Lazarus"
   },
   {
     "id": "627",
     "displayName": "Soul of Eden",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b7e70524e315bdc7037dfef64d8749488e554a6d.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Eden"
   },
   {
     "id": "628",
     "displayName": "Soul of the Lost",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8c923ef1a8300dc9d4d648a7e6d3e7a01c7da70a.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Lost"
   },
   {
     "id": "629",
     "displayName": "Soul of Lilith",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f570ea0edcf5a58c5e25228fe1fb8e44623ff5ea.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Lilith"
   },
   {
     "id": "630",
     "displayName": "Soul of the Keeper",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/84a207c1641881428d24f418121ac7aec007f91d.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Keeper"
   },
   {
     "id": "631",
     "displayName": "Soul of Apollyon",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/54483b37b00308e58733dc1f85f9ca1a9974cccc.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Apollyon"
   },
   {
     "id": "632",
     "displayName": "Soul of the Forgotten",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/570d7b2e72f4cf60077c12b82a4b2fd0d4cedc4a.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Forgotten"
   },
   {
     "id": "633",
     "displayName": "Soul of Bethany",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/58aff5a31ebb8b5ea43be42b19fae71fdd23c417.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Bethany"
   },
   {
     "id": "634",
     "displayName": "Soul of Jacob and Esau",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/36921ebc754b9937271052dcbf58d07f5dcb2026.jpg",
-    "category": 20,
+    "category": 26,
     "unlockedBy": "Defeat Hush and Boss Rush as Tainted Jacob"
   },
   {
