@@ -445,7 +445,7 @@
     "displayName": "Counterfeit Coin",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/150f7abca876bbde90b4924fe819a31260357cbd.jpg",
     "category": 8,
-    "unlockedBy": "Play either Shell Game or Hell Game 100 times"
+    "unlockedBy": "Play either Shell Game or <img:AddedRep>Hell Game 100 times"
   },
   {
     "id": "65",
@@ -601,21 +601,21 @@
     "displayName": "The Cellar",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/057bb55a43a48881c6b7e13f0f05236d6e64ff4b.jpg",
     "category": 11,
-    "unlockedBy": "Beat all Basement bosses (except Baby Plum) (not restricted to beating bosses in The Basement)"
+    "unlockedBy": "Beat all Basement bosses (<img:AddedRep>except Baby Plum) (not restricted to beating bosses in The Basement)"
   },
   {
     "id": "87",
     "displayName": "The Catacombs",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2bfa98175a0ea9a1258a67f19b06f4e5476625c3.jpg",
     "category": 11,
-    "unlockedBy": "Beat all Caves bosses (except Bumbino) (not restricted to beating bosses in The Caves)"
+    "unlockedBy": "Beat all Caves bosses (<img:AddedRep>except Bumbino) (not restricted to beating bosses in The Caves)"
   },
   {
     "id": "88",
     "displayName": "The Necropolis",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/268f0f2c2007a09ecc29beb04bbe15d3f2431fff.jpg",
     "category": 11,
-    "unlockedBy": "Beat all Depths bosses (except Reap Creep) (not restricted to beating bosses in The Depths)"
+    "unlockedBy": "Beat all Depths bosses (<img:AddedRep>except Reap Creep) (not restricted to beating bosses in The Depths)"
   },
   {
     "id": "89",
@@ -1011,7 +1011,7 @@
     "displayName": "Little Baggy",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f7a523e1b7f923a43611530abe501d510e525297.jpg",
     "category": 8,
-    "unlockedBy": "Pick up any 2 of the following items in a single run: Roid Rage, The Virus, Growth Hormones, Experimental Treatment, and Speed Ball"
+    "unlockedBy": "Pick up any 2 of the following items in a single run: Roid Rage, The Virus, Growth Hormones, Experimental Treatment, Speed Ball (<img:AddedRep>Adrenaline, Euthanasia, or Synthoil)"
   },
   {
     "id": "147",
@@ -1888,7 +1888,7 @@
     "displayName": "1001%",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b0ccf94d1447bad38ef1ba2c476cbf9702c140b0.jpg",
     "category": 25,
-    "unlockedBy": "Unlock all Afterbirth secrets and endings, and collect every Afterbirth item / Unlock 275 random achievements and have at least 510 items in the collection page"
+    "unlockedBy": "Unlock all Afterbirth secrets and endings, and collect every Afterbirth item; or <img:AddedRep>Unlock 275 random achievements and have at least 510 items in the collection page"
   },
   {
     "id": "236",
@@ -2396,7 +2396,7 @@
     "displayName": "1000000%",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6673cb1141bae8012ef6b13090e796e3a8ed5dc2.jpg",
     "category": 25,
-    "unlockedBy": "Collect every item in the game, unlock all secrets and endings, and complete the Bestiary / Unlock 402 random achievements and have at least 510 items in the collection page"
+    "unlockedBy": "Collect every item in the game, unlock all secrets and endings, and complete the Bestiary; or <img:AddedRep>Unlock 402 random achievements and have at least 510 items in the collection page"
   },
   {
     "id": "340",
@@ -2592,7 +2592,7 @@
     "displayName": "Jumper Cables",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9a607cf691c53d60733b77efe9d24c0386c17ade.jpg",
     "category": 8,
-    "unlockedBy": "Pick up any 2 of the following items in a single run: 9 Volt, The Battery, and Car Battery ( Any 2 items that have the 'battery' item tag)"
+    "unlockedBy": "Pick up any 2 of the following items in a single run: 9 Volt, The Battery, and Car Battery (<img:AddedRep>4.5 Volt, Battery Pack, AAA Battery, or Watch Battery)"
   },
   {
     "id": "368",
@@ -2606,7 +2606,7 @@
     "displayName": "Technology Zero",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/cfb9d48b0f614e2c09dad8e387f4ddc4c01e1f92.jpg",
     "category": 8,
-    "unlockedBy": "Pick up any 2 technology items in a single run ( Any 2 items that have the 'tech' item tag)"
+    "unlockedBy": "Pick up any 2 Technology (<img:AddedRep>Robo-baby, or Tech) items in a single run"
   },
   {
     "id": "370",
