@@ -1,6 +1,6 @@
 [
   {
-    "id": 9,
+    "id": 0,
     "name": "Mom"
   },
   {
@@ -8,15 +8,15 @@
     "name": "Mom's Heart"
   },
   {
-    "id": 13,
+    "id": 2,
     "name": "Mom's Heart (Hard Mode)"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Isaac"
   },
   {
-    "id": 3,
+    "id": 666,
     "name": "Satan"
   },
   {
@@ -28,7 +28,7 @@
     "name": "The Lamb"
   },
   {
-    "id": 27,
+    "id": 346665,
     "name": "Isaac, ???, Satan, and The Lamb"
   },
   {
@@ -36,76 +36,71 @@
     "name": "Boss Rush"
   },
   {
-    "id": 14,
+    "id": 7,
     "name": "Hush"
   },
   {
-    "id": 26,
+    "id": 67,
     "name": "Boss Rush and Hush"
   },
   {
-    "id": 16,
+    "id": 667,
     "name": "Mega Satan"
   },
   {
-    "id": 22,
+    "id": 668,
     "name": "Mother"
   },
   {
-    "id": 21,
+    "id": 669,
     "name": "The Beast"
   },
   {
-    "id": 28,
+    "id": 6699,
     "name": "Red Key"
   },
   {
-    "id": 18,
+    "id": 670,
     "name": "Delirium"
   },
   {
-    "id": 11,
+    "id": 8,
     "name": "Other Bosses"
   },
   {
-    "id": 17,
+    "id": 9,
     "name": "Hard Mode Completion"
   },
   {
-    "id": 15,
-    "name": "Greed Mode"
-  },
-  {
-    "id": 19,
-    "name": "Greedier Mode"
-  },
-
-  {
     "id": 10,
-    "name": "Beat Chapters"
-  },
-  {
-    "id": 24,
-    "name": "Unlock Challenges"
-  },
-  {
-    "id": 7,
-    "name": "Challenges"
-  },
-  {
-    "id": 12,
     "name": "Shop"
   },
   {
-    "id": 8,
+    "id": 11,
+    "name": "Beat Chapters"
+  },
+  {
+    "id": 700,
+    "name": "Greed Mode"
+  },
+  {
+    "id": 701,
+    "name": "Greedier Mode"
+  },
+  {
+    "id": 100,
+    "name": "Unlock Challenges"
+  },
+  {
+    "id": 101,
+    "name": "Challenges"
+  },
+  {
+    "id": 102,
     "name": "Misc"
   },
   {
-    "id": 20,
-    "name": "Repentance"
-  },
-  {
-    "id": 25,
+    "id": -1,
     "name": "Achievements Only"
   }
 ]
