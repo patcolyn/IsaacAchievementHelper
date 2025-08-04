@@ -20,6 +20,13 @@
 	color: #aaa;
 }
 
+.tooltip-icon {
+    height: 1em;
+    vertical-align: -0.2em;
+    margin: 0 2px;
+}
+
+
 /* Global styles */
 body {
 	background: radial-gradient(ellipse at top, #111 0%, #000 100%);

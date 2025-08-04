@@ -168,8 +168,9 @@ export default class AchievementHelper {
                 .replace(/<img:(\w+)>/g, (_, key) => {
                     const url = this.tooltipImages[key];
                     return url
-                        ? `<img src="${url}" alt="${key}" style="height:1em; vertical-align:text-bottom;">`
-                        : '';
+                    ? `<img src="${url}" alt="${key}" class="tooltip-icon">`
+                    : '';
+
                 });
 
 
