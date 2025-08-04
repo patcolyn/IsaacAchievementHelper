@@ -190,13 +190,11 @@ updateAchievements() {
 
     const total = filtered.length;
     const open = this.steamId
-    ? filtered.filter(a => !this.userAchievements.some(u => u.apiname === a.name && u.achieved))
+    ? filtered.filter(a => !this.userAchievements.some(u => u.apiname === a.id && u.achieved))
     : filtered;
 
 
-    
-    console.log("Matching achievement IDs from Steam:", this.userAchievements.map(u => u.apiname));
-    console.log("Filtered local achievements:", filtered.map(a => a.apiname));
+    console.log("Filtered local achievements:", filtered.map(a => a.id));
     console.log("Sample achievement from filtered:", filtered[0]);
 
 
