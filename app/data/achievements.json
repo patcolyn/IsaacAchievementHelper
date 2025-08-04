@@ -2,7 +2,7 @@
   {
     "id": "1",
     "displayName": "Magdalene",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ac5ebd9ba1934b1f6229bda09bcb8155f0af7ece.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a36d7e92df7e991758907a75dfa55d36b52548c4.jpg",
     "category": 8,
     "unlockedBy": "Have 7 or more Red Heart Containers at one time"
   },
@@ -30,7 +30,7 @@
   {
     "id": "5",
     "displayName": "The Harbingers",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4b60c000e6ada52368b63e7cd542da5c98ecb891.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/22fb2aaff6a35cfec03f7d2dd694bb5fb8770dbd.jpg",
     "category": 9,
     "unlockedBy": "Defeat Mom"
   },
@@ -107,7 +107,7 @@
   {
     "id": "16",
     "displayName": "Something From The Future",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/099f14f900121dcba0bd7343d2e51313af93b878.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8f99b9de4dac71051c4e6a29f7c811688690114e.jpg",
     "category": 10,
     "unlockedBy": "Beat Basement 40 times"
   },
@@ -135,7 +135,7 @@
   {
     "id": "20",
     "displayName": "A Cross",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8f253ed05a3ba402a6f24e3aa772607ce72656cc.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1683760e6bd63f789dae8e56f640fd199478f982.jpg",
     "category": 2,
     "unlockedBy": "Defeat Isaac as Magdalene"
   },
@@ -219,7 +219,7 @@
   {
     "id": "32",
     "displayName": "???",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f7bb4791470a130ca074bf8b8b7439784624f581.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/63deeb22ff89d9bb86027025d7d9df5b9d30ca32.jpg",
     "category": 1,
     "unlockedBy": "Defeat Mom's Heart 10 times"
   },
@@ -240,7 +240,7 @@
   {
     "id": "35",
     "displayName": "Mom's Contact",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f21466ed6a1003124df57242c1f9462d2ae573de.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f28aff80c2ebcf363fc3459d1f121321d13bfc53.jpg",
     "category": 8,
     "unlockedBy": "Obtain three Yes Mother? items in one run"
   },
@@ -289,7 +289,7 @@
   {
     "id": "42",
     "displayName": "Eve",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/fdf7005674528c4b51f1d596962f079126022c71.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b2fd471c87d386d5be1a1a68af5b8f96cf790404.jpg",
     "category": 8,
     "unlockedBy": "Don't pick up any hearts for 2 floors in a row"
   },
@@ -303,14 +303,14 @@
   {
     "id": "44",
     "displayName": "The Razor",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/68b8460669011012c1b718b89c2f782bdeeb93ee.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1fa88f77c50e119b0d1dc7ea25b1419be73a4c3f.jpg",
     "category": 3,
     "unlockedBy": "Defeat Satan as Eve"
   },
   {
     "id": "45",
     "displayName": "Guardian Angel",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f44778ceba1bfccf3efd726f6ce8c6bdd34434ab.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5115ac2666a72b80cba4703356bf14a032f50ae1.jpg",
     "category": 3,
     "unlockedBy": "Defeat Satan as Magdalene"
   },
@@ -345,7 +345,7 @@
   {
     "id": "50",
     "displayName": "Celtic Cross",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b2f2af0aa4c7e0f9c79d9ff5d92150f95e6dc1a6.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/64e84831216762c2a7534b01ee697ae0e2cc3aaf.jpg",
     "category": 4,
     "unlockedBy": "Defeat ??? as Magdalene"
   },
@@ -436,7 +436,7 @@
   {
     "id": "63",
     "displayName": "SMB Super Fan",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/22ae1e58e3274ff6df8901f7043368e087267ec1.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/cbeeb194d64f0eeebcc8e32d4a7400e8dc69a372.jpg",
     "category": 7,
     "unlockedBy": "Complete It's in the Cards (challenge #14)"
   },
@@ -457,7 +457,7 @@
   {
     "id": "66",
     "displayName": "A Forgotten Horseman",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/3ee15d8b922f533f2f6f3e67d16a08e39c585480.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7ff7b86c94eea369142afa2140688d3384dad7b9.jpg",
     "category": 8,
     "unlockedBy": "Take 10 Angel Room items"
   },
@@ -520,7 +520,7 @@
   {
     "id": "75",
     "displayName": "Cain's Eye",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/32798c117ac3dde1d5775ab142c7e48327789193.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/3926c89c452a64c075ce3faa972da8290c71eaad.jpg",
     "category": 4,
     "unlockedBy": "Defeat ??? as Cain"
   },
@@ -548,7 +548,7 @@
   {
     "id": "79",
     "displayName": "Azazel",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6570bf8ea557989f23215aea3a3afa3ca43ca49e.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7fba8dae02909a6a1cb36be992b31fd3967911a8.jpg",
     "category": 8,
     "unlockedBy": "Make 3 Deals with the Devil in one run"
   },
@@ -725,7 +725,7 @@
   {
     "id": "104",
     "displayName": "Technology .5",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/aa8bc18f5c48fa120ab8da9831fbd195361e8657.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/18131c7ca1a49fbefdea38bcd0d00949bbfd37a3.jpg",
     "category": 7,
     "unlockedBy": "Complete The Host (challenge #18)"
   },
@@ -886,14 +886,14 @@
   {
     "id": "127",
     "displayName": "Daemon's Tail",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/bcb08f33523ec7e4132b4ad7d58dec8285a179c5.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/221a6652196df672375f6001414d2c55fc6b8180.jpg",
     "category": 3,
     "unlockedBy": "Defeat Satan as Azazel"
   },
   {
     "id": "128",
     "displayName": "Abaddon",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ffe2c2692092da6cec4a0bd0cf39cd7cf44f4947.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/80a486be5b6ff5541d6daefae3370a356d455a7e.jpg",
     "category": 4,
     "unlockedBy": "Defeat ??? as Azazel"
   },
@@ -981,7 +981,7 @@
   {
     "id": "142",
     "displayName": "Krampus",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b72a45f3baacccf1ebe98a69bde5667a5ca6f1cd.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/eba2e872191766b142123afd29b14f576c399f21.jpg",
     "category": 8,
     "unlockedBy": "Take 20 items from Devil Rooms"
   },
@@ -996,7 +996,7 @@
     "id": "144",
     "displayName": "Super Meat Boy",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6f5e11a6a0bca2c94b4a42cf9bf905640d7c1b35.jpg",
-    "category": 8,
+    "category": 25,
     "unlockedBy": "Make a Super Meat Boy by picking up 4 copies of Cube of Meat in one run"
   },
   {
@@ -1101,7 +1101,7 @@
   {
     "id": "159",
     "displayName": "Solar System",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6b75fcb6afef548fa1c63e4d3efd6fb13602d1aa.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5bfc31a71b30bc627b12998b93250f0649f8e1aa.jpg",
     "category": 24,
     "unlockedBy": "Defeat Mom's Heart 3 times"
   },
@@ -1143,15 +1143,15 @@
   {
     "id": "165",
     "displayName": "The Family Man",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f598ea34a68e2071e227ac0c2cbeaeffe577bad6.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1b0bb947b312902a45dbc00759ed176477b82ca3.jpg",
     "category": 24,
     "unlockedBy": "Pick up both Key Pieces from the Angels in one run"
   },
   {
     "id": "166",
-    "displayName": "Purist (Challenge #20)",
+    "displayName": "Purist",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a600f71a773cfa7997b7a25fd69ae7173f8b78e0.jpg",
-    "category": 9,
+    "category": 24,
     "unlockedBy": "Defeat Mom"
   },
   {
@@ -1257,7 +1257,7 @@
   {
     "id": "179",
     "displayName": "Fart Baby",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7ffe937ae4588551dac059442347e1eb5a6d1472.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/29927ddbfcf29cc745ef727f7ec24c993b850750.jpg",
     "category": 14,
     "unlockedBy": "Defeat Hush as Isaac"
   },
@@ -1299,14 +1299,14 @@
   {
     "id": "185",
     "displayName": "Blind Rage",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c343d1b3854b5bff2fdb15ab14b3782f46732194.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/baefeb622081fbde1a1fdcc3de1e09d9fa699cab.jpg",
     "category": 14,
     "unlockedBy": "Defeat Hush as Samson"
   },
   {
     "id": "186",
     "displayName": "Maw of the Void",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a437ac9fe8d17f4f91f8312a5f02e28dbc20fdb9.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/11f70c7b6853878b172a95e18463b19f9d9a7b94.jpg",
     "category": 14,
     "unlockedBy": "Defeat Hush as Azazel"
   },
@@ -1335,7 +1335,7 @@
   {
     "id": "190",
     "displayName": "Incubus",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d72bcdc340915d39472186606c93613cf57054b4.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4965711762d379f869f7a4486f6dea47fc674c9c.jpg",
     "category": 14,
     "unlockedBy": "Defeat Hush as Lilith"
   },
@@ -1370,7 +1370,7 @@
   {
     "id": "196",
     "displayName": "Cracked Dice",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/739e9e2dfbfefe8ce19f15955323946f8f05bf20.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/84ce4c3a6503c0d936adf382092865095e1ae289.jpg",
     "category": 15,
     "unlockedBy": "Defeat Ultra Greed as ???"
   },
@@ -1391,7 +1391,7 @@
   {
     "id": "199",
     "displayName": "Lilith",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/01a05e79f7d36dd3d49fd05c3bd1a734b8a0f939.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d32843618ed547d39de24eda1877b2372e257685.jpg",
     "category": 15,
     "unlockedBy": "Defeat Ultra Greed as Azazel"
   },
@@ -1412,7 +1412,7 @@
   {
     "id": "202",
     "displayName": "Zodiac",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9880df834ff2841ca024625c3cb7eaa616feeb1a.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/35cbcb96a1f3a9ca7bcfa7444f585d19f910a72f.jpg",
     "category": 15,
     "unlockedBy": "Defeat Ultra Greed as The Lost",
     "lost": true
@@ -1462,7 +1462,7 @@
   {
     "id": "224",
     "displayName": "Gold Heart",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f78a9c70039ad030a2e2722ca21ca5561eb39c03.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2ea64e82c53ab707aad66f9e8eaa3210d095a1e7.jpg",
     "category": 7,
     "unlockedBy": "Complete XXXXXXXXL (challenge #21)"
   },
@@ -1476,7 +1476,7 @@
   {
     "id": "226",
     "displayName": "Gold Bomb",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/344a78229700b5eb7ae952d8081c350a73bf7f6d.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b35b4fba1ed24f8535f2d6f35f11d24975a24b10.jpg",
     "category": 7,
     "unlockedBy": "Complete Blue Bomber (challenge #23)"
   },
@@ -1539,7 +1539,7 @@
   {
     "id": "242",
     "displayName": "Lucky Pennies",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1ae3eef54be00e93552c2da359ae0b683d3092f5.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4c51929f0c3e2326af86fcfaaf1695932162b5f9.jpg",
     "category": 15,
     "unlockedBy": "Donate 2 Coins to the Greed Donation Machine"
   },
@@ -1602,7 +1602,7 @@
   {
     "id": "271",
     "displayName": "BRAINS!",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4192c5ac2e4ee896019917819a687fd36380c4e7.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/3480f073c351b4f2eeec7419b7ff85b9941a46be.jpg",
     "category": 23,
     "unlockedBy": "Defeat Isaac 5 times"
   },
@@ -1637,7 +1637,7 @@
   {
     "id": "206",
     "displayName": "Red Baby",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/cb0c810658b718f9ad5463503ec34895a661be24.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/58e14aae597315fb1b3d0fa3e0061cda3d9b3719.jpg",
     "category": 16,
     "unlockedBy": "Defeat Mega Satan as Magdalene"
   },
@@ -1672,7 +1672,7 @@
   {
     "id": "211",
     "displayName": "Rage Baby",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c631fbf3a6fad73bd6497d4170b0921598be5009.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5438d2a260015e80a072108ea8d5870460581f4a.jpg",
     "category": 16,
     "unlockedBy": "Defeat Mega Satan as Samson"
   },
@@ -1813,7 +1813,7 @@
   {
     "id": "275",
     "displayName": "Generosity",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/801183252930a090c8e1cb1113bad217ce4f9b00.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/eee50ec2ccb1a53cab844021f104629cc294aa1f.jpg",
     "category": 25,
     "unlockedBy": "Donate 999 Coins to the Greed Donation Machine"
   },
@@ -1834,7 +1834,7 @@
   {
     "id": "248",
     "displayName": "Eve now holds Razor Blade",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b0a6745a49bb22a342cdec007c8547934286c955.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1808fa11464f029ffaacb5ec2b3afd76f4b62013.jpg",
     "category": 15,
     "unlockedBy": "Donate 439 Coins to the Greed Donation Machine"
   },
@@ -1917,7 +1917,7 @@
   {
     "id": "239",
     "displayName": "Karma",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b0420e3172c5b638f0ed62fe9be00673eb1f1ea8.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/03c4e2b2b7079d1fbefb51083a9c30d805d142ee.jpg",
     "category": 5,
     "unlockedBy": "Defeat The Lamb as Keeper",
     "keeper": true
@@ -1941,7 +1941,7 @@
   {
     "id": "251",
     "displayName": "Keeper",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8a5fdb4fd3495e0a3c01c2e33898003c8f3faf7a.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d8083e4aefbb260e53a7c4cfc3cd527fdc02e459.jpg",
     "category": 15,
     "unlockedBy": "Donate 1000 Coins to the Greed Donation Machine"
   },
@@ -1956,35 +1956,35 @@
   {
     "id": "277",
     "displayName": "Backasswards",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/a24b3e30454163bd44c8af696c1d3f715924f0c7.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f55b440c25d5d0722c2922fb4117de16b3bd49d7.jpg",
     "category": 24,
     "unlockedBy": "Defeat ??? or The Lamb\n Defeat Mega Satan and unlock The Negative"
   },
   {
     "id": "278",
     "displayName": "Aprils fool",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2d1973330c0224f2c32a30a1d3a0f90cc3862821.jpg",
-    "category": 9,
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/3aed041e7c8584ae31b35b0a41ddaf9550dda1ce.jpg",
+    "category": 24,
     "unlockedBy": "Defeat Mom"
   },
   {
     "id": "279",
     "displayName": "Pokey Mans",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7ea57ce44553255d7755c2d6539f618000469a07.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2ddc4a8fe19839b248147eeff7f2dd26cdf74cba.jpg",
     "category": 1,
     "unlockedBy": "Defeat Mom's Heart 11 times"
   },
   {
     "id": "280",
     "displayName": "Ultra Hard",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e14c6f343a68be381fde4feb6a32eb5d2f6ef083.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/fbb8e45ecc33c7f06a6ce0f7c35d7d60def85e1f.jpg",
     "category": 24,
     "unlockedBy": "Defeat ??? or The Lamb. Possession of The Polaroid / The Negative is required, barring getting to Dark Room through a Sacrifice Room.\n Defeat Mega Satan and unlock The Negative"
   },
   {
     "id": "281",
     "displayName": "PONG",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f4aa8fcce92c7458ff42db5f7800ec60ebd7ea2d.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7caa4774f26c6a2d4d2aa3f60bae80db061bfe72.jpg",
     "category": 24,
     "unlockedBy": "Defeat Isaac 5 times"
   },
@@ -1998,77 +1998,77 @@
   {
     "id": "283",
     "displayName": "Eucharist",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9fabbf6365b3e38d2c86f75eca0f9488865146f1.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5b93bc67a3710cbdff512fab0a44f15fdbfbc1fc.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Magdalene"
   },
   {
     "id": "284",
     "displayName": "Silver Dollar",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0063c36cdf4f2d4ea07ca3235673707f48af1725.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/116eaf688c8d0d7076a2b96d5b15dd8f66afb67b.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Cain"
   },
   {
     "id": "285",
     "displayName": "Shade",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/eb118ac38a9d23ab0637472b92c3242a24394757.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/aae80fcbafc5f4a153e1abfb6407ab9db78a011d.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Judas"
   },
   {
     "id": "286",
     "displayName": "King Baby",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6fbd76ba8c073b83e44c1a8f39139e86ed2f4829.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ac0637ec50e54de2cc7d533a60c918cfcdc40488.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as ???"
   },
   {
     "id": "287",
     "displayName": "Bloody Crown",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b80f7f734f2f6fad1d43a8d2d97e26d50a6f9fe8.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5da7fbf538d190b94022fcca3d95eb8df3407f6a.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Samson"
   },
   {
     "id": "288",
     "displayName": "Dull Razor",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d5b7da4584398fdaf1086ed42cc9dbac9f2251e3.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/13d24b934dc07ba670bc8b0fa1e9e51605addb17.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Eve"
   },
   {
     "id": "289",
     "displayName": "Eden's Soul",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9b7edfa7a0c5af210df90fde3e9566934c758ed2.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b9aa67d2f397217304850d45097284818a741994.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Eden"
   },
   {
     "id": "290",
     "displayName": "Dark Prince's Crown",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/12c3d67997282e87cce250a4e597be6ebd9e9f70.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/af078a5a7ed7e6751b7ae527e7ee4dd20dc72f42.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Azazel"
   },
   {
     "id": "291",
     "displayName": "Compound Fracture",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b36feaafd10ff37d231d8b5f59716a942347730b.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f22a16dfe888ebb62e62f31c119213cb450de8d8.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Lazarus"
   },
   {
     "id": "292",
     "displayName": "Euthanasia",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/930c5a478fde36b74c50fe9631083122bd7f4778.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c78629f8b190c84294669ba0f987230e32982164.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Lilith"
   },
   {
     "id": "293",
     "displayName": "Holy Card",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4e20ecbe0881a4524f739ff2b2ff13186685578f.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5dd94da241d350b3ba5077fdee63e36518fe54be.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as The Lost",
     "lost": true
@@ -2076,7 +2076,7 @@
   {
     "id": "294",
     "displayName": "Crooked Penny",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b155ce7acd3a8ee33b1add7d31432adf3df1619d.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/129f05e3d80c20c364c69e7f1522455de23b2285.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Keeper",
     "keeper": true
@@ -2084,91 +2084,91 @@
   {
     "id": "295",
     "displayName": "Void",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d7f8e95cf303ea1ff8cc979977e8f922806cf94c.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/248c58f79392da7ca962035bfa6fd9e31d383cda.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium as Apollyon"
   },
   {
     "id": "296",
     "displayName": "D1",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/223e5059a9f575f0fdf5e8ef4e6216200f2b440e.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/826818fe27d5aad945dc533847fa09b2787aedf3.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Isaac"
   },
   {
     "id": "297",
     "displayName": "Glyph of Balance",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d30de05ccc8299ec2c1eb68af6a81030c9e02443.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/adee15f2e85d4fd0f2e07c7d83cb7ff804301ffc.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Magdalene"
   },
   {
     "id": "298",
     "displayName": "Sack of Sacks",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d76337520e26a6b19d928ceea731969a3dffd1d1.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/db0560f0c372954c98bcc72dce522e5aa53a76da.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Cain"
   },
   {
     "id": "299",
     "displayName": "Eye of Belial",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/450877c1799cc0af987cda4b47309f903403e4c6.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/39971039d94e4b04eddb241ff9f467018121447d.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Judas"
   },
   {
     "id": "300",
     "displayName": "Meconium",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/040a208cd01f8e8ba3749d7119ddc7c44dd82654.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/59c7c92d7b1ff732f36d60acc607d4ee3c905b59.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as ???"
   },
   {
     "id": "301",
     "displayName": "Stem Cell",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c12ca0df8efaa81394ee0e58b4a46c7a89c8c219.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/fba2be9412e8485df2ca47ad6e9c827e44816a1b.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Samson"
   },
   {
     "id": "302",
     "displayName": "Crow Heart",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/71245e86d713cde3d7cb03d263e69b54c75a5c07.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/52721e82ea1fd50310b05a9fac4b128c6ad0b038.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Eve"
   },
   {
     "id": "303",
     "displayName": "Metronome",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/643a9cbcb8d760137a02307ea64abc52c9a57e2e.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9c7df1090e0bb73e5dd3bd7649c974c67178d4a8.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Eden"
   },
   {
     "id": "304",
     "displayName": "Bat Wing",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6efde17491ee86afd348292c7f051fc112ee5b0e.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/60490f9b9784756b1c884b2b9254f3185af4baed.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Azazel"
   },
   {
     "id": "305",
     "displayName": "Plan C",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e5156678aaeb313dff140a815c510feecb5154ca.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9364bed0650d8886ec631247d70c61dc3675b643.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Lazarus"
   },
   {
     "id": "306",
     "displayName": "Duality",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e25209ffb816e293b7cfc9036799b5e9562f8b4b.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/3a9bae200095aae6027dd6526abbc2b72dab9982.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Lilith"
   },
   {
     "id": "307",
     "displayName": "Dad's Lost Coin",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b6be7c582a75f691700d7bc2bcc2b3b1a1ade763.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ba81508b5936b2c8d9d6b91b1c5b4158f8c38b69.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as The Lost",
     "lost": true
@@ -2176,7 +2176,7 @@
   {
     "id": "308",
     "displayName": "Eye of Greed",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8b7cd19f8572a6c67034ab2e7ba8237b3d994562.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4bca47563e96bb191c0bc0ad884fa5e35cbfd504.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Keeper",
     "keeper": true
@@ -2184,112 +2184,112 @@
   {
     "id": "309",
     "displayName": "Black Rune",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5deba59beb955c61d4cecefca7577b92de268774.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c1f8594a589eb996c14021a4d6fdc1b2bbeaf429.jpg",
     "category": 19,
     "unlockedBy": "Defeat Ultra Greedier as Apollyon"
   },
   {
     "id": "310",
     "displayName": "Locust of Wrath",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9a4d126a445cbb514fffafad22126a787bbc9d5b.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/fcd185ce53c594f0d2f54a34fffd6c5fc7dc43fb.jpg",
     "category": 2,
     "unlockedBy": "Defeat Isaac as Apollyon"
   },
   {
     "id": "311",
     "displayName": "Locust of Pestilence",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/77a8249867b74702e065b9bb3a6846f70d8ab7d4.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/12e763b6973a438859941fdd26d102075e673ea8.jpg",
     "category": 3,
     "unlockedBy": "Defeat Satan as Apollyon"
   },
   {
     "id": "312",
     "displayName": "Locust of Famine",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8e440d30bc6656c1df24127c6789888e4486e2ef.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/db28944d29b3c1a8fd50c9dd4ab0bd43d6344f5e.jpg",
     "category": 4,
     "unlockedBy": "Defeat ??? as Apollyon"
   },
   {
     "id": "313",
     "displayName": "Locust of Death",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/ab6a4aeb801aab6eb23bd5984403e7b20eb22858.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f68803c95800fd740cd4c1b61538ac3468cc5f3b.jpg",
     "category": 5,
     "unlockedBy": "Defeat The Lamb as Apollyon"
   },
   {
     "id": "314",
     "displayName": "Locust of Conquest",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/67656154d6c3a37dc97e6b86c2a77a8fb46e67df.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/35bb595a6d62422bfd27b2116705a5cbd5fd85a4.jpg",
     "category": 6,
     "unlockedBy": "Complete the Boss Rush as Apollyon"
   },
   {
     "id": "315",
     "displayName": "Hushy",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/4a68ec55778b01e7080f0a7412b4d7d7a34c6807.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b303504c7e7d0be257be62c5af10eb7dfbafc0f3.jpg",
     "category": 14,
     "unlockedBy": "Defeat Hush as Apollyon"
   },
   {
     "id": "316",
     "displayName": "Brown Nugget",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/34ae9b55b9f410a548f838bbcb48f1b4ba3b8302.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/40a7700abe665bf386ad9997377264690ca35e05.jpg",
     "category": 15,
     "unlockedBy": "Defeat Ultra Greed as Apollyon"
   },
   {
     "id": "317",
     "displayName": "Mort Baby",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/01c1db37742f35182d3a0451c816799a7a85c7f3.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8af2203d4c5051dacfecdf4ac37f008368845684.jpg",
     "category": 16,
     "unlockedBy": "Defeat Mega Satan as Apollyon"
   },
   {
     "id": "318",
     "displayName": "Smelter",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/33df7b8942609d40b8786159cf08fe7e5d3c390a.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9e9b80ab81a5ca57f9e124f369355c0a2f1037ca.jpg",
     "category": 1,
     "unlockedBy": "Defeat Mom's Heart or It Lives! on Hard mode as Apollyon"
   },
   {
     "id": "319",
     "displayName": "Apollyon Baby",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/bd61f807aae2cc66b23d98640cce159782b4188b.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/9f7383b65713ccfae0950d3c647f9befc686b552.jpg",
     "category": 17,
     "unlockedBy": "Earn all Hard mode Completion Marks as Apollyon"
   },
   {
     "id": "320",
     "displayName": "New Area",
-    "icon": "https://bindingofisaacrebirth.wiki.gg/images/6/6c/Achievement_New_Area_icon.png",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/80fd4f106a6ee7b437530323d8a97dfaae943c6d.jpg",
     "category": 14,
     "unlockedBy": "Defeat Hush"
   },
   {
     "id": "321",
     "displayName": "Once More with Feeling!",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/941719a2fd06a69093cef6cb77039c8c91427055.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2a8d0cc3260765cac69a0fb5949237a3f2e4593e.jpg",
     "category": 8,
     "unlockedBy": "Complete a Victory Lap by defeating The Lamb"
   },
   {
     "id": "322",
     "displayName": "Hat trick!",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/840ebcf84938a6fc7b04fdab7a3b1201234681cc.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f46cb6dc85b8f1a4b7cec365857f88c1801fadbd.jpg",
     "category": 8,
     "unlockedBy": "Get a 3-win streak"
   },
   {
     "id": "323",
     "displayName": "5 Nights at Mom's",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5ac8c39d74f86319870c872cc2aadff51d81701b.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/3cc0ccf34be2012783797b81c364d78e147fcf9a.jpg",
     "category": 8,
     "unlockedBy": "Get a 5-win streak, using a different character each time ( this number can be reduced to 3, see the notes section)"
   },
   {
     "id": "324",
     "displayName": "Sin collector",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/86504ef3d49b3deca8196aec68aaeac241f49aa2.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b8b0e77a6b3bb660d72e3903ae88269dab19b755.jpg",
     "category": 8,
     "unlockedBy": "Collect every entry in the Bestiary (bugged v190 - Mobs that don't exist in the bestiary are being counted. This allows Sin Collector to be unlocked without a complete bestiary)"
   },
@@ -2303,91 +2303,91 @@
   {
     "id": "326",
     "displayName": "ZIP!",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/cf1c036aa3ece401fddb5089e8e912ef0ca99b68.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/441bd9e12ef3a9b4087ab87d76593d201e557065.jpg",
     "category": 5,
     "unlockedBy": "Defeat The Lamb in under 20 minutes"
   },
   {
     "id": "327",
     "displayName": "It's the Key",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/cab3f838c09972f8275de0ed0b562d6f08832e90.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c3f04bd4fa3ea003456f1a47353feb0bcffd3276.jpg",
     "category": 5,
     "unlockedBy": "Defeat The Lamb without taking Hearts, Coins, or Bombs through the entire run. Letting certain familiars (e.g. Bum Friend, Dark Bum, Bumbo or Lil Portal) or bosses (e.g. Bumbino) pick up the consumables fails this condition as well"
   },
   {
     "id": "328",
     "displayName": "Mr. Resetter!",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6fd9528a261c33bed72c7f2799026c8cec1c3e16.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/56c4c800ad3a500c69f91e6075d93cb0e5596bd3.jpg",
     "category": 8,
     "unlockedBy": "Reset 7 times in a row\n Switch PS4 Get a minus 10-win streak"
   },
   {
     "id": "329",
     "displayName": "Living on the edge",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/bc11ab794ecc78a5729cf3afaa975968fcdcf4c4.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/6cfa1a4c662399d335d5fddd3c60e16c25d7ea3a.jpg",
     "category": 8,
     "unlockedBy": "Complete a Chapter (floors I and II) after Basement, start-to-finish, with only half a Heart total (can use The Lost)"
   },
   {
     "id": "330",
     "displayName": "U Broke It!",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/875ce6d4ab992022c74503752ee6696c808ea5ac.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/912f0120c37a7be3d40ea90426a4b910fae3b074.jpg",
     "category": 8,
     "unlockedBy": "Obtain 50 items in a run (duplicate passive items/familiars count towards the total, e.g., multiple Breakfast)"
   },
   {
     "id": "331",
     "displayName": "Laz Bleeds More!",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e9d3c0460728576488d0c1bebca94991ee969ab1.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/aa316324cfbe4a992153d402203fc53db306d728.jpg",
     "category": 7,
     "unlockedBy": "Complete Backasswards (challenge #31)"
   },
   {
     "id": "332",
     "displayName": "Maggy Now Holds a Pill!",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/d188bcf9972a5a76e1d658072b4d59bca485c580.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/3d3b9c875367ffef611a3b1649c26e5fd8493f23.jpg",
     "category": 7,
     "unlockedBy": "Complete Aprils Fool (challenge #32)"
   },
   {
     "id": "333",
     "displayName": "Charged Key",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/76d03074494a3d9b14cf1917edd8d79e45f1586e.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/be64df5323f6ce3106897c4a1cd5e5506c89806f.jpg",
     "category": 7,
     "unlockedBy": "Complete Pokey Mans (challenge #33)"
   },
   {
     "id": "334",
     "displayName": "Samson Feels Healthy!",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8743956367b508c36b6f6182648f74b79eb87c2c.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/07b0a2e234be1c0753356ad6eaec7a05a44d8229.jpg",
     "category": 7,
     "unlockedBy": "Complete Ultra Hard (challenge #34)"
   },
   {
     "id": "335",
     "displayName": "Greed's Gullet",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/cb953de0616484415501e4f1b151c11b95f29766.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/45269df252e2b8d047d8e32761cdfc373a726499.jpg",
     "category": 7,
     "unlockedBy": "Complete Pong (challenge #35)"
   },
   {
     "id": "336",
     "displayName": "The Marathon",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/24bfc4f074679e42ff56dd71127b0830033e9495.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/91956aed7d131f477b35f171584743ba4652aa22.jpg",
     "category": 8,
     "unlockedBy": "Get a 5-win streak in the Daily Challenges (they don't have to be consecutive days, only the runs you play are counted)"
   },
   {
     "id": "337",
     "displayName": "RERUN",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0ef4451d59a8a0766fbfedf9f556dca7ae3fbb0f.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/067783eef9ce3347b5fb16877843732f6a209605.jpg",
     "category": 8,
     "unlockedBy": "Complete 3 Victory Laps by defeating The Lamb"
   },
   {
     "id": "338",
     "displayName": "Delirious",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/c46c5adfbbddce1f341eb18ac450f542ba774884.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/5862f9c7d93e7781943b3975a3a590d5d04433e2.jpg",
     "category": 18,
     "unlockedBy": "Defeat Delirium"
   },
@@ -2506,7 +2506,7 @@
   {
     "id": "355",
     "displayName": "Buddy in a Box",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/bc66ed3943a298a9ba45ac232ee82f429553e8d8.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/403d8034eccece2b61ea6550680dc8250ad142fb.jpg",
     "category": 8,
     "unlockedBy": "Pick up 5 familiars in a single run"
   },
@@ -2534,7 +2534,7 @@
   {
     "id": "359",
     "displayName": "Wooden Cross",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2317056aa31cbfa578e5be8d9f592d4ac757766b.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7cf9ed17886990cab4677d9fbcca2701b74e2d80.jpg",
     "category": 8,
     "unlockedBy": "Sleep in a bed"
   },
@@ -4466,7 +4466,7 @@
   {
     "id": "635",
     "displayName": "A Strange Door",
-    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/0d65e10ec45d85fb840a51f6df3db6ca2fce9923.jpg",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/dea06bb299596933102a5f6cd5b9f8b13bd46f48.jpg",
     "category": 20,
     "unlockedBy": "Defeat Mother"
   },
