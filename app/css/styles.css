@@ -62,7 +62,14 @@ h2 {
 	margin: 140px auto 40px auto;
 	box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
 	position: relative;
+    text-align: center;
 }
+
+#achievements a {
+    display: inline-block;
+    margin: 4px;
+}
+
 
 /* Login block */
 #login {
@@ -158,6 +165,7 @@ ul#modes li.active {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: none;
 	text-align: center;
+	display: inline-block;
 }
 
 #achievements a img:hover {
@@ -167,6 +175,8 @@ ul#modes li.active {
 
 #achievements a {
     display: inline-block;
+	margin: 4px;
+	text-align: center;
 }
 
 /* Utility */
