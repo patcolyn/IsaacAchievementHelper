@@ -1,3 +1,12 @@
+/* Hide DLC buttons temporarily */
+#repentanceplus,
+#repentance,
+#afterbirthplus,
+#afterbirth {
+    display: none !important;
+}
+
+
 /* Tooltip content */
 .tooltipster-content span {
 	display: block;
@@ -148,9 +157,9 @@ ul#modes li.active {
 #achievements a img {
 	width: 64px;
 	height: 64px;
-	margin: 8px;
+	margin: 4px;
 	border-radius: 6px;
-	box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+	box-shadow: none;
 	transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -162,4 +171,33 @@ ul#modes li.active {
 /* Utility */
 .disabled {
 	display: none !important;
+}
+
+/* achievement stats text */
+#achievements h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+/* progress bar */
+#progressBarWrapper {
+    width: 80%;
+    max-width: 600px;
+    margin: 10px auto 20px auto;
+    height: 20px;
+    background: #2c2c2c;
+    border: 2px solid #000;
+    box-shadow: inset 0 0 4px #000;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+#progressBar {
+    height: 100%;
+    background: linear-gradient(to right, #a40000, #ff2222);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    transition: width 0.3s ease-in-out;
 }
