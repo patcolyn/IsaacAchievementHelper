@@ -169,9 +169,15 @@ export default class AchievementHelper {
                         .attr('src', achievement.icon)
                         .tooltipster({
                             content: $(`<span class="title">${achievement.displayName}</span><span>Unlocked by:</span><span class="unlockedby">${title}</span>`),
-                            contentAsHTML: true
+                            contentAsHTML: true,
+                            delay: 75,
+                            animation: 'fade',
+                            animationDuration: 150,
+                            theme: 'tooltipster-dark',
+                            maxWidth: 260
                         })
                 )
+
                 .appendTo(`#achievements .category-${achievement.category} .achievements`);
         });
     }
