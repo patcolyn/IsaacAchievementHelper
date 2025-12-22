@@ -4504,5 +4504,12 @@
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/90f01f8e38174ad4eaf1e74e69450edba4b610a4.jpg",
     "category": 25,
     "unlockedBy": "Win an Online Daily run"
+  },
+  {
+    "id": "641",
+    "displayName": "Item Descriptions",
+    "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/285579eddf1dd9c100eb0469cfab62fc9b65c40a.jpg",
+    "category": 1,
+    "unlockedBy": "Defeat Mom"
   }
 ]
