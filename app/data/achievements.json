@@ -1081,7 +1081,7 @@
     "displayName": "Godhead",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/1c9b7d8874ea24b6bc1e01d803ef62a6b8897f22.jpg",
     "category": 11,
-    "unlockedBy": "Earn all 6 / 9 / 10 / 12 Completion Marks on Hard mode as The Lost",
+    "unlockedBy": "Earn all <img:RemovedAbirth> 6 / <img:AddedAbirthRemovedAbirthPlus> 9 / <img:AddedAbirthPlusRemovedRep> 10 / <img:AddedRep> 12 Completion Marks on Hard mode as The Lost",
     "lost": true
   },
   {
@@ -1089,7 +1089,7 @@
     "displayName": "Darkness Falls",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/f3efa8f34a8cde33d316a4d711c77f58c77d7be4.jpg",
     "category": 24,
-    "unlockedBy": "Defeat Mom's Heart 11 times and unlock Eve<br>Defeat Mom's Heart 11 times and defeat ??? as Eve"
+    "unlockedBy": "<img:RemovedRep> Defeat Mom's Heart 11 times and unlock Eve\n<img:AddedRep> Defeat Mom's Heart 11 times and defeat ??? as Eve"
   },
   {
     "id": "158",
@@ -1209,14 +1209,14 @@
     "displayName": "Wrapped Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/2483c9c25db9d25a0a818a0db68bf8c6db1e8704.jpg",
     "category": 13,
-    "unlockedBy": "Defeat Mom's Heart on Hard mode as Azazel\n Defeat Mom's Heart on Hard mode as Lazarus"
+    "unlockedBy": "<img:RemovedAbirthPlus> Defeat Mom's Heart on Hard mode as Azazel\n<img:AddedAbirthPlus> Defeat Mom's Heart on Hard mode as Lazarus"
   },
   {
     "id": "173",
     "displayName": "Begotten Baby",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/8c2aec50c45fb4d0ea198c38778c45afbd998f17.jpg",
     "category": 13,
-    "unlockedBy": "Defeat Mom's Heart on Hard mode as Lazarus\n Defeat Mom's Heart on Hard mode as Azazel"
+    "unlockedBy": "<img:RemovedAbirthPlus> Defeat Mom's Heart on Hard mode as Lazarus\n<img:AddedAbirthPlus> Defeat Mom's Heart on Hard mode as Azazel"
   },
   {
     "id": "174",
@@ -1885,7 +1885,7 @@
   },
   {
     "id": "235",
-    "displayName": "1001%",
+    "displayName": "<img:AddedAbirth> 1001%",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/b0ccf94d1447bad38ef1ba2c476cbf9702c140b0.jpg",
     "category": 25,
     "unlockedBy": "Unlock all Afterbirth secrets and endings, and collect every Afterbirth item; or <img:AddedRep>Unlock 275 random achievements and have at least 510 items in the collection page"
