@@ -14,6 +14,7 @@ export default class AchievementHelper {
 
         this.tooltipImages = {
             AddedRep: "https://bindingofisaacrebirth.wiki.gg/images/f/f2/Dlc_r_indicator.png",
+            AddedRepPlus: "https://bindingofisaacrebirth.wiki.gg/images/Dlc_r%2B_indicator.png",
         };
 
         $.expr[':'].nocontent = obj =>
