@@ -13,7 +13,17 @@ export default class AchievementHelper {
         this.userAchievements = [];
 
         this.tooltipImages = {
+            AddedAbirth: "https://bindingofisaacrebirth.wiki.gg/images/Dlc_a_indicator.png",
+            RemovedAbirth: "https://bindingofisaacrebirth.wiki.gg/images/Dlc_na_indicator.png",
+            AddedAbirthRemovedAbirthPlus: "https://bindingofisaacrebirth.wiki.gg/images/Dlc_ana†_indicator.png",
+            
+            AddedAbirthPlus: "https://bindingofisaacrebirth.wiki.gg/images/Dlc_a†_indicator.png",
+            RemovedAbirthPlus: "https://bindingofisaacrebirth.wiki.gg/images/Dlc_na†_indicator.png",
+            AddedAbirthPlusRemovedRep: "https://bindingofisaacrebirth.wiki.gg/images/Dlc_a†nr_indicator.png",
+            
             AddedRep: "https://bindingofisaacrebirth.wiki.gg/images/f/f2/Dlc_r_indicator.png",
+            RemovedRep: "https://bindingofisaacrebirth.wiki.gg/images/Dlc_nr_indicator.png",
+            
             AddedRepPlus: "https://bindingofisaacrebirth.wiki.gg/images/Dlc_r%2B_indicator.png",
         };
 
