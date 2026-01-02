@@ -214,7 +214,7 @@
     "displayName": "The Parasite",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/7f0a1b63880588b9f4810225b3ff29d7754d48c3.jpg",
     "category": 8,
-    "unlockedBy": "Pick up any 2 of the following items in a single run: Bob's Rotten Head, Dead Cat, Cricket's Head, and Tammy's Head"
+    "unlockedBy": "Pick up 2 dead-related items in a single run\n<img:AddedRep> Dead-related items are Bob's Rotten Head, Dead Cat, Cricket's Head, and Tammy's Head\n<img:AddedRepPlus> Dead-related items have the 'dead' item tag"
   },
   {
     "id": "32",
@@ -4482,7 +4482,7 @@
     "displayName": "Dead God",
     "icon": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/250900/e729764beb8aa856567d16825604f9407bd8c362.jpg",
     "category": 25,
-    "unlockedBy": "Unlock all the other achievements (<img:AddedRep> including the 4 Repentance+ achievements) and collect every item in the game"
+    "unlockedBy": "Unlock all the other achievements (<img:AddedRepPlus> including the 4 Repentance+ achievements) and collect every item in the game"
   },
   {
     "id": "638",
