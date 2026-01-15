@@ -188,7 +188,7 @@ export default class AchievementHelper {
 
             $('<a>')
                 .attr({
-                    href: `http://bindingofisaacrebirth.gamepedia.com/${achievement.displayName.replace(/ /g, '_')}`,
+                    href: `https://bindingofisaacrebirth.wiki.gg/${achievement.displayName.replace(/ /g, '_')}`,
                     target: '_blank'
                 })
                 .html(
